@@ -34,3 +34,10 @@ for _fam, _gs in GENRE_FAMILY.items():
 
 NUMERIC = ["energy", "valence", "dance", "acoustic", "tempo"]
 NUM_WEIGHT = 0.8  # audio features vs. genre/mood tags
+
+# How much each "view" of a song counts toward similarity (re-scaled over whatever is available):
+#   features = scikit-learn tags + audio features, style = PyTorch autoencoder, text = text embedding
+SPACE_WEIGHTS = {"features": 0.4, "style": 0.3, "text": 0.3}
+# Likes/dislikes: how strongly the learned preference model moves the ranking.
+FEEDBACK_WEIGHT = 0.12
+FEEDBACK_MIN_VOTES = 1

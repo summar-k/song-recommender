@@ -46,8 +46,8 @@ class StyleAutoencoder(nn.Module):
         return self.decoder(self.encoder(x))
 
 
-def train_embeddings(X, epochs=400, lr=1e-2, noise=0.1, seed=0):
-    """Train the autoencoder; return (L2-normalised embeddings, final loss).
+def train_autoencoder(X, epochs=400, lr=1e-2, noise=0.1, seed=0):
+    """Train the autoencoder; return (trained model, final loss).
 
     Denoising: we randomly zero some inputs and ask the net to rebuild the clean
     vector, which forces the 12-number embedding to capture the *essence* of a song's
@@ -64,9 +64,20 @@ def train_embeddings(X, epochs=400, lr=1e-2, noise=0.1, seed=0):
         loss.backward()
         opt.step()
     model.eval()
+    return model, loss.item()
+
+
+def encode_styles(model, X):
+    """Run feature vectors through a trained encoder -> L2-normalised style embeddings."""
     with torch.no_grad():
-        emb = model.encoder(x).numpy()
-    return normalize(emb), loss.item()
+        emb = model.encoder(torch.from_numpy(np.asarray(X, dtype=np.float32))).numpy()
+    return normalize(emb)
+
+
+def train_embeddings(X, epochs=400, lr=1e-2, noise=0.1, seed=0):
+    """Convenience wrapper: (L2-normalised embeddings, final loss)."""
+    model, loss = train_autoencoder(X, epochs, lr, noise, seed)
+    return encode_styles(model, X), loss
 
 
 def cluster_styles(Z, songs, k=6, seed=0):

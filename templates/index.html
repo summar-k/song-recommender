@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>afterglow</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <main>
+    <header>
+      <h1>afterglow</h1>
+      <p class="tagline">music that sounds like you.</p>
+    </header>
+
+    <section class="search">
+      <div class="field" id="field">
+        <div id="chips"></div>
+        <input id="input" type="text" autocomplete="off" spellcheck="false"
+               placeholder="add an artist you like" aria-label="Add an artist">
+      </div>
+      <ul id="suggest" class="suggest" hidden></ul>
+      <button id="go" class="primary" type="button">find songs</button>
+      <p class="hint" id="hint">press enter to add each artist</p>
+    </section>
+
+    <section id="status" class="status" hidden></section>
+
+    <section id="results" hidden>
+      <aside class="taste" id="taste"></aside>
+      <div class="list-head">
+        <h2>recommended for you</h2>
+        <button id="reset" class="link" type="button" hidden>reset likes and dislikes</button>
+      </div>
+      <ol id="cards"></ol>
+    </section>
+
+    <footer id="footer"></footer>
+  </main>
+  <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
