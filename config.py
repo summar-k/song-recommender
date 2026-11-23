@@ -16,15 +16,15 @@ RECENT_SPAN = 6  # years over which the recency boost grows (2020 -> 2026)
 
 # Related genres share a "family" token so e.g. alt_pop and bedroom_pop count as similar.
 GENRE_FAMILY = {
-    "pop": "pop dance_pop synth_pop electropop alt_pop dark_pop indie_pop dream_pop pop_rock "
+    "pop": "pop tropical dark_pop dance_pop synth_pop electropop alt_pop indie_pop dream_pop pop_rock "
            "pop_punk kpop soul hyperpop bedroom_pop uk_garage",
-    "hiphop": "hip_hop trap pop_rap west_coast rap funk melodic_rap psychedelic_rap",
-    "rnb": "rnb alt_rnb neo_soul soul afrobeats",
+    "hiphop": "hip_hop trap pop_rap west_coast rap funk melodic_rap psychedelic_rap trap_soul gospel",
+    "rnb": "rnb alt_rnb neo_soul soul afrobeats trap_soul gospel",
     "latin": "reggaeton latin_pop latin_trap salsa",
     "indie": "indie indie_pop psych_pop dream_pop jazz_pop alt_pop",
     "rock": "rock hard_rock pop_rock soft_rock alt_rock indie_rock",
     "dance": "dance_pop house electronic baile_funk psych_pop disco electropop electroclash "
-             "hyperpop uk_garage drum_and_bass",
+             "hyperpop uk_garage drum_and_bass edm dancehall reggae tropical",
     "asian_pop": "kpop",
 }
 FAMILIES_OF = {}

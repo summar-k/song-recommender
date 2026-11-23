@@ -43,7 +43,8 @@ class SongRecommender:
         self.X = X
         self.labels, self.cluster_names = cluster_styles(
             self.spaces.get("style", X), self.songs, seed=self.seed)
-        self.artists = {self._norm(a): a for s in self.songs for a in s["artists"]}
+        # only PRIMARY artists are searchable; featured-only names (e.g. a guest rapper) are not
+        self.artists = {self._norm(s["artist"]): s["artist"] for s in self.songs}
         self.ids = {song_id(s): i for i, s in enumerate(self.songs)}
         tw = sum(SPACE_WEIGHTS[k] for k in self.spaces)
         self.weights = {k: SPACE_WEIGHTS[k] / tw for k in self.spaces}
@@ -63,7 +64,14 @@ class SongRecommender:
         if key in self.artists:
             return self.artists[key]
         close = difflib.get_close_matches(key, self.artists, n=1, cutoff=0.75)
-        return self.artists[close[0]] if close else None
+        if close:
+            return self.artists[close[0]]
+        # partial names like "kanye" or "ye" -> a single artist whose name has that word
+        if len(key) >= 2:
+            hits = [k for k in self.artists if key in k.split()]
+            if len(hits) == 1:
+                return self.artists[hits[0]]
+        return None
 
     def artist_names(self):
         return sorted(set(self.artists.values()), key=str.casefold)

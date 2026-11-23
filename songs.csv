@@ -1,18 +1,69 @@
 artist,title,year,genres,moods,energy,valence,dance,acoustic,tempo
+A$AP Rocky,Peso,2011,hip_hop rap,swagger confident,.63,.47,.79,.23,88
+A$AP Rocky,Purple Swag,2011,hip_hop trap,chill hypnotic swagger,.53,.34,.68,.16,62
+A$AP Rocky;Drake;2 Chainz;Kendrick Lamar,F**kin' Problems,2012,hip_hop pop_rap,swagger party hype,.62,.51,.79,.21,78
+A$AP Rocky,Goldie,2012,hip_hop trap,swagger confident,.84,.44,.75,.09,135
+A$AP Rocky,Wassup,2012,hip_hop rap,swagger confident,.61,.49,.77,.19,140
+A$AP Rocky;Skrillex;Birdy Nam Nam,Wild for the Night,2012,hip_hop electronic,aggressive hype chaotic,.84,.38,.76,.09,140
+A$AP Rocky;Juicy J;Danny Brown;Lil Wayne,1 Train,2013,hip_hop rap,confident swagger,.75,.38,.71,.08,120
+A$AP Rocky,Long Live A$AP,2013,hip_hop,confident dramatic,.58,.49,.80,.20,82
+A$AP Rocky,Multiply,2013,hip_hop rap,aggressive swagger,.82,.44,.72,.08,130
+A$AP Rocky,Canal St.,2015,hip_hop trap,aggressive confident,.82,.42,.75,.11,140
+A$AP Rocky,Everyday,2015,hip_hop psychedelic_rap,dreamy confident,.53,.45,.76,.19,85
+A$AP Rocky,L$D,2015,hip_hop psychedelic_rap,dreamy sensual hypnotic,.53,.56,.74,.22,75
+A$AP Rocky,A$AP Forever,2018,hip_hop psychedelic_rap,dreamy confident,.64,.44,.73,.21,82
+A$AP Rocky;Skepta,Praise the Lord (Da Shine),2018,hip_hop trap,swagger hype confident,.69,.44,.77,.12,90
+A$AP Rocky,Babushka Boi,2024,hip_hop trap,swagger aggressive,.76,.42,.71,.12,145
+A$AP Rocky,Same Problems?,2024,hip_hop,confident moody,.54,.50,.72,.22,95
 A$AP Rocky,Helicopter$,2026,hip_hop rap,confident swagger groovy,.70,.45,.75,.05,115
 A$AP Rocky,Order of Protection,2026,hip_hop,dark confident moody,.60,.30,.65,.10,110
 A$AP Rocky,Playa,2026,hip_hop rnb,sensual groovy swagger,.60,.50,.80,.10,100
 A$AP Rocky,Punk Rocky,2026,hip_hop rap,aggressive playful swagger,.80,.50,.70,.05,130
 A$AP Rocky,Stay Here,2026,hip_hop rnb,moody melancholic sensual,.50,.30,.60,.20,100
 A$AP Rocky,STFU,2026,hip_hop rap,aggressive hype energetic,.85,.40,.70,.05,140
+Addison Rae,Obsessed,2021,pop dance_pop,playful hedonistic,.83,.64,.79,.13,120
+Addison Rae,Money Is Everything,2023,pop electropop,confident playful,.76,.69,.72,.08,120
 Addison Rae,Aquamarine,2024,alt_pop dream_pop,dreamy romantic chill,.55,.55,.70,.15,110
 Addison Rae,Diet Pepsi,2024,alt_pop dream_pop,dreamy playful chill,.55,.50,.70,.15,110
 Addison Rae,Fame Is a Gun,2025,alt_pop dream_pop,dreamy dark moody,.55,.40,.65,.15,105
 Addison Rae,Headphones On,2025,alt_pop dream_pop,dreamy melancholic chill,.50,.35,.65,.15,110
 Addison Rae,High Fashion,2025,alt_pop dance_pop,playful confident groovy,.70,.65,.80,.05,115
+Addison Rae,In the Rain,2025,alt_pop dream_pop,dreamy romantic,.47,.54,.59,.33,110
+Addison Rae,Lost & Found,2025,alt_pop synth_pop,dreamy melancholic,.55,.49,.65,.34,108
+Addison Rae,Summer Forever,2025,alt_pop dream_pop,nostalgic dreamy,.47,.50,.66,.37,112
+Ariana Grande,Break Free,2014,dance_pop electropop,euphoric anthemic energetic,.80,.60,.76,.05,130
+Ariana Grande,Love Me Harder,2014,synth_pop rnb,sensual dramatic moody,.53,.41,.66,.31,98
+Ariana Grande,Problem,2014,pop dance_pop,confident playful party,.76,.71,.70,.12,103
+Ariana Grande,Focus,2015,pop dance_pop,confident sensual,.75,.73,.71,.12,98
+Ariana Grande,One Last Time,2015,dance_pop edm,romantic hopeful energetic,.83,.64,.79,.03,125
+Ariana Grande,Dangerous Woman,2016,pop rnb,sensual confident dramatic,.53,.47,.73,.33,110
+Ariana Grande,Greedy,2016,pop dance_pop,playful confident upbeat,.76,.72,.77,.08,110
+Ariana Grande,Into You,2016,dance_pop electropop,sensual playful upbeat,.79,.64,.86,.06,108
+Ariana Grande,Let Me Love You,2016,pop rnb,sensual smooth,.51,.51,.77,.31,90
+Ariana Grande,Side to Side,2016,pop reggae rnb,playful sensual groovy,.50,.41,.69,.28,159
+Ariana Grande,Breathin,2018,pop synth_pop,emotional hopeful,.76,.65,.77,.08,100
+Ariana Grande,God Is a Woman,2018,pop trap rnb,empowering sensual confident,.47,.49,.70,.33,145
+Ariana Grande,No Tears Left to Cry,2018,pop dance_pop,hopeful euphoric upbeat,.75,.66,.77,.11,122
+Ariana Grande,"thank u, next",2018,pop rnb,empowering hopeful confident,.49,.48,.74,.32,107
+Ariana Grande,7 rings,2019,pop trap,swagger confident playful,.49,.36,.73,.15,140
+Ariana Grande,"break up with your girlfriend, i'm bored",2019,pop dance_pop,playful confident hedonistic,.76,.74,.74,.09,85
+Ariana Grande,NASA,2019,pop rnb,dreamy playful,.45,.42,.70,.33,75
+Ariana Grande,needy,2019,pop rnb,tender emotional,.37,.23,.37,.73,80
 Ariana Grande,34+35,2020,pop rnb,sensual playful groovy,.55,.70,.85,.20,109
 Ariana Grande,positions,2020,pop rnb,romantic sensual groovy,.50,.60,.75,.20,144
+Ariana Grande;Justin Bieber,Stuck with U,2020,pop rnb,romantic tender hopeful,.39,.25,.34,.72,178
+Ariana Grande;Doja Cat,motive,2021,pop rnb,playful confident,.48,.44,.71,.27,120
+Ariana Grande,pov,2021,pop rnb,tender emotional,.38,.22,.34,.68,90
+Ariana Grande;Ty Dolla Sign,safety net,2021,pop rnb,dreamy emotional smooth,.45,.49,.72,.32,95
+Ariana Grande,bye,2024,pop dance_pop,upbeat empowering playful,.78,.66,.78,.09,120
+Ariana Grande,don't wanna break up again,2024,pop rnb,emotional tender,.40,.22,.43,.73,75
+Ariana Grande,eternal sunshine,2024,pop alt_pop,emotional introspective,.49,.46,.67,.32,110
+Ariana Grande,i wish i hated you,2024,pop rnb,heartbreak emotional,.50,.44,.77,.30,100
+Ariana Grande,imperfect for you,2024,pop rnb,tender emotional,.33,.27,.35,.72,90
+Ariana Grande,supernatural,2024,pop synth_pop,romantic dreamy,.85,.66,.69,.07,108
 Ariana Grande,the boy is mine,2024,pop rnb,playful romantic groovy,.55,.65,.75,.10,96
+Ariana Grande,true story,2024,pop dance_pop,dark playful,.81,.73,.74,.10,105
+Ariana Grande,twilight zone,2024,pop dance_pop,dreamy hypnotic,.77,.75,.75,.08,112
 Ariana Grande,we can't be friends,2024,pop synth_pop,heartbreak emotional dreamy,.55,.30,.65,.05,114
 Ariana Grande,yes and?,2024,pop dance_pop house,confident empowering groovy,.80,.75,.85,.05,118
 Ariana Grande,bad thing (bunny hop),2026,pop dance_pop,playful sensual groovy,.70,.60,.75,.10,115
@@ -23,21 +74,68 @@ Ariana Grande,kiss me,2026,pop dance_pop rnb,romantic sensual dreamy,.55,.55,.65
 Ariana Grande,like i do,2026,pop rnb,romantic upbeat dreamy,.55,.60,.65,.15,108
 Ariana Grande,petal,2026,pop rnb,dreamy tender romantic,.45,.45,.55,.30,100
 Ariana Grande,stay,2026,pop rnb,romantic emotional dreamy,.45,.40,.55,.25,95
+Bad Bunny,Soy Peor,2016,latin_trap reggaeton,heartbreak swagger,.81,.74,.80,.12,93
+Bad Bunny;Drake,Mia,2018,reggaeton latin_trap,sensual smooth party,.75,.69,.80,.11,97
+Bad Bunny,Callaita,2019,reggaeton latin_trap,party swagger hype,.70,.71,.83,.11,93
 Bad Bunny;Jhay Cortez,Dakiti,2020,reggaeton latin_trap,sensual groovy chill,.70,.60,.80,.30,110
+Bad Bunny,La Difícil,2020,latin_trap reggaeton,swagger confident,.70,.67,.80,.10,90
+Bad Bunny;Jhay Cortez,Safaera,2020,reggaeton latin_trap,chaotic party hype,.74,.71,.80,.08,100
+Bad Bunny,Si Veo a Tu Mamá,2020,reggaeton,sensual playful,.81,.68,.85,.09,94
+Bad Bunny,Te Deseo Lo Mejor,2020,latin_trap reggaeton,heartbreak melancholic,.74,.65,.89,.12,85
+Bad Bunny,Yo Perreo Sola,2020,reggaeton latin_pop,empowering party confident,.69,.76,.90,.11,96
 Bad Bunny,Yonaguni,2021,reggaeton latin_pop,chill romantic dreamy,.55,.55,.75,.30,90
+Bad Bunny,Después de la Playa,2022,latin_pop salsa,party playful nostalgic,.72,.70,.83,.10,100
+Bad Bunny,Efecto,2022,reggaeton latin_pop,romantic smooth,.81,.65,.82,.10,92
 Bad Bunny,Me Porto Bonito,2022,reggaeton latin_pop,groovy party sensual,.70,.80,.90,.30,92
 Bad Bunny,Moscow Mule,2022,reggaeton latin_pop,sensual chill groovy,.65,.55,.80,.20,100
+Bad Bunny,Neverita,2022,reggaeton,party playful,.73,.66,.84,.08,110
+Bad Bunny;Bomba Estereo,Ojitos Lindos,2022,reggaeton latin_pop,romantic tender dreamy,.79,.76,.89,.12,90
+Bad Bunny,Party,2022,reggaeton latin_pop,party hype,.79,.70,.90,.10,100
 Bad Bunny,Titi Me Pregunto,2022,reggaeton latin_trap,playful party swagger,.70,.55,.75,.20,107
+Bad Bunny,Un Verano Sin Ti,2022,latin_pop reggaeton,nostalgic romantic,.72,.66,.87,.11,90
+Bad Bunny,Baby Nueva,2023,latin_trap reggaeton,swagger playful,.75,.72,.90,.11,96
+Bad Bunny,Monaco,2023,latin_trap hip_hop,swagger confident,.67,.41,.72,.13,130
+Bad Bunny,Thunder y Lightning,2023,latin_trap,aggressive swagger,.74,.40,.78,.08,130
+Bad Bunny;Eladio Carrion,Where She Goes,2023,reggaeton latin_pop,party romantic,.74,.72,.82,.08,90
 Bad Bunny,Baile Inolvidable,2025,salsa latin_pop reggaeton,nostalgic party groovy,.70,.70,.80,.30,90
+Bad Bunny,Bokete,2025,latin_pop reggaeton,playful party,.79,.71,.83,.11,100
+Bad Bunny,Café con Ron,2025,latin_pop salsa,party nostalgic playful,.79,.75,.80,.13,100
 Bad Bunny,DtMF,2025,reggaeton latin_pop,nostalgic emotional groovy,.60,.50,.70,.30,100
+Bad Bunny,EOO,2025,latin_pop reggaeton,playful party,.78,.65,.87,.10,100
+Bad Bunny,Kloufrens,2025,latin_pop,chill tender,.75,.75,.86,.09,85
+Bad Bunny,Lo Que Le Pasó a Hawaii,2025,latin_pop,melancholic nostalgic,.71,.65,.86,.09,80
 Bad Bunny,NUEVAYoL,2025,reggaeton latin_pop,energetic party swagger,.80,.70,.80,.20,100
 Bad Bunny,PERFuMITO NUEVO,2025,reggaeton latin_trap,playful sensual groovy,.70,.65,.85,.10,100
+Bad Bunny,Pitorro de Coco,2025,latin_pop salsa,party playful,.76,.75,.85,.12,105
+Bad Bunny,Turista,2025,latin_pop,nostalgic tender,.76,.70,.88,.10,90
+Bad Bunny,Veldá,2025,latin_pop,dreamy nostalgic tender,.79,.67,.90,.11,90
 Bad Bunny,VOY A LLeVARTE PA PR,2025,reggaeton latin_pop,nostalgic party groovy,.80,.75,.85,.10,100
 Bad Bunny,WELTiTA,2025,reggaeton latin_pop,playful chill groovy,.65,.60,.80,.20,95
+Billie Eilish,Ocean Eyes,2016,dream_pop alt_pop,dreamy tender melancholic,.38,.29,.39,.73,72
+Billie Eilish,Bellyache,2017,alt_pop,dark playful moody,.52,.21,.59,.30,100
+Billie Eilish,Copycat,2017,alt_pop,dark moody,.49,.24,.63,.30,108
+Billie Eilish,idontwannabeyouanymore,2018,alt_pop,melancholic emotional,.38,.23,.41,.68,70
+Billie Eilish,when the party's over,2018,alt_pop,melancholic emotional,.36,.29,.39,.68,83
+Billie Eilish,bad guy,2019,alt_pop electropop,playful swagger dark,.49,.17,.56,.32,135
+Billie Eilish,bury a friend,2019,alt_pop electropop,dark chaotic,.50,.14,.54,.31,120
+Billie Eilish,everything i wanted,2019,alt_pop,melancholic emotional,.37,.22,.40,.69,120
+Billie Eilish,wish you were gay,2019,alt_pop,heartbreak melancholic,.36,.20,.44,.70,120
+Billie Eilish,you should see me in a crown,2019,alt_pop electropop,dark aggressive swagger,.49,.17,.63,.27,150
+Billie Eilish,my future,2020,alt_pop dream_pop,hopeful dreamy,.54,.56,.66,.37,112
+Billie Eilish,No Time to Die,2020,pop,dramatic melancholic,.39,.23,.41,.67,90
 Billie Eilish,Therefore I Am,2020,electropop alt_pop,swagger dark playful,.55,.60,.90,.20,94
+Billie Eilish,Getting Older,2021,alt_pop,introspective melancholic,.41,.26,.40,.69,75
 Billie Eilish,Happier Than Ever,2021,alt_pop pop_rock,angry heartbreak introspective,.55,.30,.40,.40,80
+Billie Eilish,Lost Cause,2021,alt_pop,playful confident,.48,.51,.71,.28,85
+Billie Eilish,Male Fantasy,2021,alt_pop,melancholic tender,.36,.44,.54,.82,75
 Billie Eilish,NDA,2021,electropop alt_pop,dark moody energetic,.55,.20,.75,.15,85
+Billie Eilish,Oxytocin,2021,electropop,dark sensual hypnotic,.51,.19,.65,.31,105
+Billie Eilish,Your Power,2021,alt_pop,tender melancholic,.27,.45,.55,.82,78
+Billie Eilish,TV,2022,alt_pop,introspective melancholic,.30,.41,.54,.83,75
+Billie Eilish,What Was I Made For?,2023,pop,emotional tender melancholic,.34,.29,.39,.70,78
 Billie Eilish,Birds of a Feather,2024,alt_pop dream_pop,dreamy romantic chill,.50,.40,.60,.20,105
+Billie Eilish,Bittersuite,2024,alt_pop dream_pop,dreamy moody,.48,.44,.56,.36,115
+Billie Eilish,Blue,2024,alt_pop,moody dreamy introspective,.46,.18,.54,.31,110
 Billie Eilish,Chihiro,2024,alt_pop dance_pop,dreamy romantic groovy,.60,.30,.70,.10,120
 Billie Eilish,L'Amour de Ma Vie,2024,alt_pop dance_pop,emotional dramatic dreamy,.50,.25,.60,.30,100
 Billie Eilish;Finneas,Lunch,2024,alt_pop dance_pop,sensual playful groovy,.60,.60,.70,.05,120
@@ -45,6 +143,102 @@ Billie Eilish,Skinny,2024,alt_pop dream_pop,emotional tender introspective,.25,.
 Billie Eilish,The Diner,2024,alt_pop,dark moody dreamy,.45,.25,.55,.30,100
 Billie Eilish,The Greatest,2024,alt_pop,emotional dramatic anthemic,.55,.20,.50,.30,110
 Billie Eilish,Wildflower,2024,alt_pop,tender emotional dreamy,.30,.20,.50,.65,100
+Bryson Tiller,502 Come Up,2015,trap_soul rnb,nostalgic moody,.56,.32,.66,.17,70
+Bryson Tiller,Been That Way,2015,trap_soul rnb,moody smooth,.55,.34,.74,.14,70
+Bryson Tiller,Don't,2015,trap_soul rnb,moody sensual,.55,.41,.67,.14,65
+Bryson Tiller,Exchange,2015,trap_soul rnb,romantic sensual smooth,.55,.49,.73,.28,80
+Bryson Tiller,For However Long,2015,trap_soul rnb,moody romantic,.55,.38,.73,.16,65
+Bryson Tiller,Let 'Em Know,2015,trap_soul rnb,moody smooth,.59,.40,.74,.16,65
+Bryson Tiller,Rambo,2015,trap_soul rnb,confident swagger,.53,.32,.64,.17,70
+Bryson Tiller,Sorry Not Sorry,2015,trap_soul rnb,confident swagger,.49,.41,.73,.15,70
+Bryson Tiller,Ten Nine Fourteen,2015,trap_soul rnb,moody introspective,.56,.32,.67,.18,70
+Bryson Tiller,Don't Get Too High,2017,trap_soul rnb,moody smooth,.60,.38,.76,.18,70
+Bryson Tiller,Run Me Dry,2017,trap_soul rnb,sensual smooth,.55,.47,.75,.33,90
+Bryson Tiller,Self-Made,2017,trap_soul rnb,confident smooth,.50,.49,.67,.33,90
+Bryson Tiller,Somethin Tells Me,2017,trap_soul rnb,romantic smooth,.53,.47,.76,.30,90
+Bryson Tiller,Inhale,2020,trap_soul rnb,sensual smooth,.51,.44,.69,.29,90
+Bryson Tiller;Drake,Outta Time,2020,trap_soul rnb,moody smooth,.48,.47,.69,.29,90
+Bryson Tiller,Years Go By,2020,trap_soul rnb,nostalgic smooth,.56,.45,.72,.30,90
+Charli xcx,Boom Clap,2014,pop electropop,romantic upbeat hopeful,.76,.67,.75,.07,82
+Charli xcx,Break the Rules,2014,pop pop_punk,hype hype,.80,.64,.54,.08,126
+Charli xcx,Vroom Vroom,2016,hyperpop electropop,aggressive hype,.88,.67,.84,.06,140
+Charli xcx;Lil Yachty,After the Afterparty,2017,hyperpop pop,hedonistic party,.87,.66,.79,.04,105
+Charli xcx,Boys,2017,pop dance_pop,playful upbeat,.74,.71,.72,.11,98
+Charli xcx,Unlock It,2017,hyperpop electropop,hype chaotic,.81,.64,.76,.05,125
+Charli xcx;Troye Sivan,1999,2018,synth_pop dance_pop,nostalgic upbeat euphoric,.76,.71,.76,.13,113
+Charli xcx;Lizzo,Blame It on Your Love,2019,dance_pop pop,playful upbeat,.78,.73,.71,.08,120
+Charli xcx,Click,2019,hyperpop electropop,hype aggressive,.89,.70,.82,.04,130
+Charli xcx;Christine and the Queens,Gone,2019,electropop synth_pop,emotional dramatic,.90,.71,.85,.06,110
+Charli xcx,Next Level Charli,2019,electropop hyperpop,hype confident,.84,.67,.82,.06,128
+Charli xcx,White Mercedes,2019,synth_pop electropop,tender emotional,.75,.73,.76,.08,110
+Charli xcx,Anthems,2020,hyperpop electropop,hedonistic nostalgic,.83,.60,.80,.07,130
+Charli xcx,Claws,2020,hyperpop electropop,upbeat romantic,.82,.60,.81,.05,140
+Charli xcx,Enemy,2020,hyperpop electropop,dark playful,.88,.61,.79,.06,130
+Charli xcx,Forever,2020,hyperpop electropop,romantic dreamy,.82,.69,.80,.02,110
+Charli xcx,Party 4 U,2020,hyperpop electropop,emotional dreamy,.88,.63,.76,.08,130
+Charli xcx,Pink Diamond,2020,hyperpop electropop,hype confident,.79,.67,.85,.06,130
+Charli xcx,Good Ones,2021,synth_pop dance_pop,emotional dark,.79,.67,.74,.09,120
+Charli xcx,Baby,2022,dance_pop electropop,playful hype,.86,.60,.79,.05,125
+Charli xcx;Rina Sawayama,Beg for You,2022,house dance_pop,emotional dramatic,.85,.70,.78,.03,125
+Charli xcx,Constant Repeat,2022,synth_pop dance_pop,dreamy dark,.80,.70,.76,.09,120
+Charli xcx,Used to Know Me,2022,house dance_pop,euphoric upbeat,.89,.65,.86,.04,124
+Charli xcx,Speed Drive,2023,hyperpop dance_pop,playful hype,.81,.71,.80,.06,130
+Charli xcx,360,2024,hyperpop electropop,confident swagger playful,.86,.64,.80,.03,130
+Charli xcx,365,2024,hyperpop house,hedonistic chaotic hype,.81,.63,.80,.06,130
+Charli xcx,Apple,2024,hyperpop house,hype hedonistic,.84,.60,.75,.03,126
+Charli xcx,B2b,2024,hyperpop house,playful dark hype,.89,.62,.86,.04,130
+Charli xcx,Club classics,2024,hyperpop electronic,chaotic hype aggressive,.81,.71,.83,.05,140
+Charli xcx,Everything is romantic,2024,synth_pop electropop,romantic dreamy,.82,.67,.74,.08,130
+Charli xcx,"Girl, so confusing",2024,hyperpop electropop,introspective playful,.89,.60,.80,.07,130
+Charli xcx;Billie Eilish,Guess,2024,hyperpop electropop,sensual playful hedonistic,.87,.60,.84,.07,128
+Charli xcx,Hello goodbye,2024,hyperpop electropop,playful dreamy,.80,.68,.75,.04,130
+Charli xcx,I might say something stupid,2024,synth_pop electronic,melancholic introspective,.46,.23,.61,.29,110
+Charli xcx,I think about it all the time,2024,synth_pop,emotional introspective tender,.38,.29,.37,.71,110
+Charli xcx,Mean girls,2024,hyperpop electropop,playful confident,.90,.67,.81,.07,130
+Charli xcx,Rewind,2024,hyperpop electropop,nostalgic hype,.79,.70,.81,.03,130
+Charli xcx,So I,2024,synth_pop,emotional melancholic,.53,.22,.61,.30,110
+Charli xcx,Spring breakers,2024,hyperpop electropop,playful hype,.90,.66,.84,.05,130
+Charli xcx,Sympathy is a knife,2024,hyperpop electropop,dark emotional introspective,.81,.59,.82,.06,130
+Charli xcx,Talk talk,2024,hyperpop electropop,playful dreamy,.80,.61,.74,.04,130
+Charli xcx,Von dutch,2024,hyperpop electropop,aggressive confident hype,.89,.60,.75,.06,130
+Charli xcx,Chains of Love,2025,alt_pop synth_pop,romantic dramatic dark,.50,.25,.64,.29,100
+Charli xcx;John Cale,House,2025,alt_pop,dark dreamy,.56,.23,.60,.33,100
+Charli xcx;Sky Ferreira,Eyes of the World,2026,alt_pop synth_pop,dreamy dark,.50,.19,.55,.31,100
+Charli xcx,Rock Music,2026,electropop alt_pop,hype playful,.88,.62,.78,.05,130
+Charli xcx,SS26,2026,electropop alt_pop,dreamy playful,.86,.62,.83,.06,120
+Charli xcx,Wall of Sound,2026,alt_pop synth_pop,dramatic romantic,.55,.17,.66,.29,100
+Doja Cat,Candy,2018,pop rnb,playful sensual,.78,.68,.72,.10,100
+Doja Cat,Mooo!,2018,hip_hop pop_rap,playful chaotic,.77,.73,.71,.11,100
+Doja Cat,Juicy,2019,hip_hop pop_rap,playful confident,.60,.55,.74,.18,100
+Doja Cat,Say So,2019,pop funk disco,playful groovy upbeat,.79,.71,.76,.08,111
+Doja Cat,Streets,2019,rnb alt_rnb,sensual moody dreamy,.52,.48,.66,.30,90
+Doja Cat;Rico Nasty,Tia Tamera,2019,hip_hop pop_rap,playful hype,.53,.55,.78,.19,100
+Doja Cat,Boss Bitch,2020,hip_hop pop_rap,confident empowering,.61,.54,.75,.19,100
+Doja Cat,Ain't Shit,2021,rnb pop,playful confident,.50,.40,.72,.30,100
+Doja Cat,Get Into It (Yuh),2021,hip_hop pop_rap,playful hype,.57,.45,.75,.21,80
+Doja Cat;SZA,Kiss Me More,2021,pop rnb,playful upbeat groovy,.70,.70,.85,.10,111
+Doja Cat,Need to Know,2021,rnb pop,sensual moody,.50,.42,.67,.32,130
+Doja Cat,Options,2021,rnb pop,sensual smooth,.51,.45,.69,.32,100
+Doja Cat,Woman,2021,afrobeats pop,empowering groovy,.49,.47,.69,.28,107
+Doja Cat;The Weeknd,You Right,2021,rnb pop,sensual smooth,.52,.40,.67,.28,100
+Doja Cat,Vegas,2022,hip_hop pop,playful hype swagger,.74,.69,.79,.13,120
+Doja Cat,Agora Hills,2023,rnb pop,sensual smooth,.51,.48,.76,.32,100
+Doja Cat,Attention,2023,hip_hop,confident swagger,.56,.49,.73,.21,100
+Doja Cat,Demons,2023,hip_hop trap,dark aggressive,.68,.41,.69,.13,140
+Doja Cat,Paint the Town Red,2023,hip_hop pop_rap,swagger confident dark,.56,.46,.74,.21,100
+Doja Cat,Aaahh Men!,2025,pop synth_pop,playful chaotic,.74,.68,.76,.09,120
+Doja Cat,Cards,2025,pop synth_pop,romantic hopeful,.77,.65,.71,.11,105
+Doja Cat,Gorgeous,2025,pop synth_pop,confident upbeat,.83,.74,.73,.10,110
+Doja Cat,Jealous Type,2025,pop synth_pop,playful dramatic upbeat,.77,.74,.72,.09,110
+Doja Cat,Lipstain,2025,pop synth_pop,sensual dreamy,.85,.73,.74,.08,100
+Doja Cat;SZA,Take Me Dancing,2025,pop rnb,romantic smooth,.51,.40,.67,.27,100
+Don Toliver,Can't Feel My Legs,2018,trap melodic_rap,hedonistic moody,.72,.35,.75,.12,130
+Don Toliver,No Idea,2019,trap melodic_rap,moody hedonistic,.53,.35,.67,.17,70
+Don Toliver,After Party,2020,melodic_rap trap,hedonistic smooth,.51,.38,.74,.15,80
+Don Toliver,Embarrassed,2020,melodic_rap trap,moody dreamy,.58,.36,.65,.14,75
+Don Toliver;Travis Scott,Flocky Flocky,2021,trap melodic_rap,hype swagger,.69,.37,.78,.11,140
+Don Toliver;Travis Scott,You,2021,melodic_rap trap,dreamy hypnotic,.54,.41,.67,.18,82
+Don Toliver,Love Me More,2023,melodic_rap rnb,sensual moody,.53,.32,.72,.16,90
 Don Toliver,No Pole,2023,hip_hop rnb trap,moody sensual dreamy,.55,.40,.70,.10,100
 Don Toliver;Justin Bieber;Future,Private Landing,2023,hip_hop rnb trap,sensual moody swagger,0.6,0.4,0.75,0.1,130
 Don Toliver,Hardstone Psycho,2024,hip_hop trap,dark aggressive energetic,.85,.30,.65,.05,140
@@ -57,8 +251,40 @@ Don Toliver,E85,2026,hip_hop trap psychedelic_rap,hype dark energetic,.80,.35,.6
 Don Toliver,Long Way To Calabasas,2026,hip_hop rnb,dreamy moody chill,.55,.40,.65,.15,105
 Don Toliver;Yeat,Rendezvous,2026,hip_hop trap psychedelic_rap,hype dark energetic,.80,.35,.70,.05,145
 Don Toliver;Rema,Secondhand,2026,hip_hop rnb afrobeats,sensual groovy romantic,.60,.55,.75,.15,100
+Drake,Best I Ever Had,2009,hip_hop pop_rap,confident romantic,.63,.53,.74,.19,162
+Drake,Over,2010,hip_hop,confident anthemic,.74,.46,.73,.09,100
+Drake,Headlines,2011,hip_hop,confident moody,.64,.55,.80,.22,90
+Drake,Marvins Room,2011,rnb alt_rnb,melancholic moody introspective,.60,.29,.75,.13,70
+Drake;Rihanna,Take Care,2011,rnb hip_hop,tender romantic,.46,.47,.78,.32,122
+Drake;Majid Jordan,"Hold On, We're Going Home",2013,rnb synth_pop,romantic smooth,.52,.47,.69,.29,100
+Drake,Started from the Bottom,2013,hip_hop,confident anthemic,.74,.34,.69,.07,86
+Drake,0 to 100 / The Catch Up,2014,hip_hop,aggressive swagger,.83,.34,.73,.10,140
+Drake,Energy,2015,hip_hop trap,aggressive confident,.83,.34,.66,.09,80
+Drake,Hotline Bling,2015,pop_rap rnb,playful romantic smooth,.52,.43,.74,.29,135
+Drake,Know Yourself,2015,hip_hop trap,aggressive hype,.84,.44,.67,.11,140
+Drake;Meek Mill,R.I.C.O.,2015,hip_hop,confident swagger,.79,.35,.72,.12,140
+Drake,Controlla,2016,dancehall hip_hop,groovy sensual party,.74,.75,.83,.13,122
+Drake,Fake Love,2016,hip_hop melodic_rap,moody heartbreak,.62,.50,.76,.19,134
+Drake;Wizkid;Kyla,One Dance,2016,afrobeats dance_pop,groovy party smooth,.81,.64,.79,.09,104
+Drake;Rihanna,Too Good,2016,dancehall rnb,sensual groovy,.51,.41,.76,.28,120
+Drake,Passionfruit,2017,dancehall rnb,sensual smooth chill,.53,.41,.69,.32,112
+Drake;Travis Scott;Quavo,Portland,2017,hip_hop trap,swagger smooth,.56,.52,.74,.22,122
+Drake,God's Plan,2018,hip_hop pop_rap,confident anthemic,.60,.55,.79,.20,77
+Drake,In My Feelings,2018,hip_hop pop_rap,playful party,.55,.50,.71,.20,91
+Drake,Nice for What,2018,hip_hop house,empowering confident hype,.57,.51,.76,.20,93
+Drake,Nonstop,2018,hip_hop trap,aggressive swagger,.85,.45,.71,.09,155
+Drake,Money in the Grave,2019,hip_hop trap,confident swagger,.83,.43,.73,.08,101
+Drake;Lil Durk,Laugh Now Cry Later,2020,hip_hop pop_rap,confident smooth,.61,.49,.74,.19,134
+Drake,Toosie Slide,2020,hip_hop pop_rap,playful groovy,.53,.54,.69,.21,81
+Drake;Lil Baby,Girls Want Girls,2021,hip_hop pop_rap,playful confident,.57,.50,.71,.21,100
+Drake;21 Savage;Project Pat,Knife Talk,2021,hip_hop trap,aggressive swagger,.77,.41,.64,.10,145
+Drake;Future;Young Thug,Way 2 Sexy,2021,hip_hop pop_rap,playful swagger,.59,.48,.75,.20,137
+Drake;21 Savage,Jimmy Cooks,2022,hip_hop trap,confident swagger,.83,.44,.67,.08,165
 Drake;21 Savage,Rich Flex,2022,hip_hop trap,swagger dark confident,.55,.40,.80,.05,154
+Drake;J. Cole,First Person Shooter,2023,hip_hop,aggressive confident,.77,.37,.76,.08,139
+Drake;Yeat,IDGAF,2023,hip_hop trap,aggressive hype,.71,.38,.71,.08,140
 Drake,Search & Rescue,2023,hip_hop rnb,moody confident dark,.55,.35,.80,.10,142
+Drake;SZA,Slime You Out,2023,rnb hip_hop,smooth moody sensual,.56,.44,.67,.27,90
 Drake,Nokia,2025,hip_hop rnb,moody nostalgic sensual,.45,.40,.65,.20,100
 Drake,Dust,2026,hip_hop,moody confident,.55,.35,.70,.10,125
 Drake,Janice STFU,2026,hip_hop pop_rap,confident moody swagger,.60,.40,.75,.05,130
@@ -67,6 +293,105 @@ Drake;Future;Molly Santana,Ran To Atlanta,2026,hip_hop trap,swagger energetic da
 Drake;Qendresa,Slap The City,2026,hip_hop,moody sensual,.55,.40,.70,.10,125
 Drake,Whisper My Name,2026,hip_hop rnb,moody sensual,.50,.35,.70,.15,120
 Drake,WNBA,2026,hip_hop,playful swagger,.65,.55,.80,.05,130
+Frank Ocean,Novacane,2011,alt_rnb rnb,dark sensual moody,.46,.44,.67,.32,90
+Frank Ocean,Swim Good,2011,alt_rnb synth_pop,melancholic dramatic,.54,.43,.67,.29,100
+Frank Ocean,Bad Religion,2012,alt_rnb,emotional dramatic,.36,.30,.43,.69,80
+Frank Ocean,Lost,2012,alt_rnb funk,groovy playful,.47,.46,.74,.29,120
+Frank Ocean,Pyramids,2012,alt_rnb,dramatic hypnotic,.53,.26,.57,.33,100
+Frank Ocean,Super Rich Kids,2012,alt_rnb,nostalgic melancholic,.52,.39,.71,.31,90
+Frank Ocean,Sweet Life,2012,alt_rnb neo_soul,dreamy chill smooth,.56,.47,.68,.27,90
+Frank Ocean,Thinkin Bout You,2012,alt_rnb rnb,romantic heartbreak tender,.47,.43,.77,.29,85
+Frank Ocean,Godspeed,2016,alt_rnb gospel,tender emotional,.35,.20,.43,.73,70
+Frank Ocean,Ivy,2016,alt_rnb indie,nostalgic emotional,.51,.44,.58,.38,95
+Frank Ocean,Nights,2016,alt_rnb,moody dreamy,.46,.45,.77,.30,90
+Frank Ocean,Nikes,2016,alt_rnb,dreamy moody,.51,.25,.62,.30,90
+Frank Ocean,Pink + White,2016,alt_rnb,dreamy tender nostalgic,.55,.45,.73,.33,100
+Frank Ocean,Self Control,2016,alt_rnb,emotional heartbreak,.39,.29,.35,.69,90
+Frank Ocean,Solo,2016,alt_rnb,introspective emotional,.39,.25,.35,.71,80
+Frank Ocean,White Ferrari,2016,alt_rnb,dreamy melancholic,.30,.22,.42,.69,80
+Frank Ocean,Biking,2017,alt_rnb hip_hop,chill smooth,.56,.54,.78,.19,90
+Frank Ocean,Chanel,2017,alt_rnb,chill confident,.52,.50,.68,.30,90
+Frank Ocean,Dear April,2017,alt_rnb,tender emotional,.36,.28,.42,.69,90
+Frank Ocean,Provider,2017,alt_rnb,dark moody,.56,.26,.56,.31,90
+Justin Bieber,One Time,2009,pop rnb,romantic upbeat,.74,.76,.78,.08,145
+Justin Bieber;Ludacris,Baby,2010,pop dance_pop,romantic upbeat,.81,.65,.74,.10,65
+Justin Bieber,Somebody to Love,2010,pop rnb,upbeat romantic,.78,.70,.73,.12,130
+Justin Bieber,As Long as You Love Me,2012,pop rnb,romantic tender,.45,.41,.78,.30,140
+Justin Bieber;Nicki Minaj,Beauty and a Beat,2012,dance_pop edm,party euphoric,.80,.61,.83,.06,128
+Justin Bieber,Boyfriend,2012,pop synth_pop,playful confident,.84,.72,.69,.13,97
+Justin Bieber,Confident,2013,pop hip_hop,confident swagger,.56,.54,.78,.20,100
+Justin Bieber,Love Yourself,2015,pop soft_rock,heartbreak tender,.33,.46,.50,.78,100
+Justin Bieber,Sorry,2015,dance_pop tropical,heartbreak upbeat hopeful,.84,.71,.72,.11,100
+Justin Bieber,What Do You Mean?,2015,pop tropical,playful smooth,.80,.72,.75,.08,125
+Justin Bieber,Company,2016,pop synth_pop,romantic smooth,.76,.69,.71,.09,95
+Justin Bieber;Chance the Rapper,Holy,2020,pop gospel,romantic hopeful,.52,.42,.76,.32,90
+Justin Bieber;Quavo,Intentions,2020,pop trap,romantic tender,.46,.46,.72,.28,150
+Justin Bieber;benny blanco,Lonely,2020,pop,melancholic emotional,.36,.21,.38,.67,80
+Justin Bieber,Yummy,2020,pop rnb,playful sensual,.51,.40,.69,.28,145
+Justin Bieber,Anyone,2021,pop synth_pop,romantic hopeful,.85,.69,.72,.09,115
+Justin Bieber,Ghost,2021,pop soft_rock,emotional heartbreak,.35,.28,.36,.72,100
+Justin Bieber,Hold On,2021,pop soul,hopeful emotional,.38,.29,.43,.68,70
+Justin Bieber;Daniel Caesar;Giveon,Peaches,2021,rnb pop,sensual smooth groovy,.48,.40,.68,.27,90
+Justin Bieber,All I Can Take,2025,rnb,emotional tender,.33,.20,.37,.72,80
+Justin Bieber,Butterflies,2025,rnb,tender romantic,.50,.50,.70,.28,90
+Justin Bieber,Daisies,2025,rnb alt_rnb,tender romantic dreamy,.49,.50,.73,.28,90
+Justin Bieber,Devotion,2025,rnb,romantic tender,.40,.24,.40,.69,80
+Justin Bieber,Go Baby,2025,rnb,sensual smooth,.48,.40,.73,.30,90
+Justin Bieber,Sweet Spot,2025,rnb,sensual smooth,.46,.50,.69,.29,90
+Justin Bieber,Things You Do,2025,rnb,romantic smooth,.52,.44,.77,.28,90
+Justin Bieber,Yukon,2025,rnb alt_rnb,chill sensual smooth,.50,.40,.69,.28,90
+Kanye West,All Falls Down,2003,hip_hop soul,introspective confident,.58,.47,.71,.18,90
+Kanye West,Through the Wire,2003,hip_hop rap,hopeful confident,.56,.53,.70,.22,90
+Kanye West,Jesus Walks,2004,hip_hop gospel,anthemic dramatic,.85,.42,.75,.13,87
+Kanye West,Diamonds from Sierra Leone,2005,hip_hop soul,confident dramatic,.60,.45,.69,.23,100
+Kanye West;Jamie Foxx,Gold Digger,2005,hip_hop soul,playful swagger,.55,.47,.70,.21,93
+Kanye West,Heard 'Em Say,2005,hip_hop soul,dreamy tender,.64,.53,.76,.22,90
+Kanye West,Can't Tell Me Nothing,2007,hip_hop,confident swagger,.59,.55,.74,.23,80
+Kanye West;T-Pain,Flashing Lights,2007,hip_hop rnb,dark dreamy,.53,.45,.77,.21,90
+Kanye West;T-Pain,Good Life,2007,hip_hop pop_rap,upbeat party,.59,.56,.70,.17,90
+Kanye West,Homecoming,2007,hip_hop pop_rap,nostalgic anthemic,.59,.48,.73,.18,90
+Kanye West,Stronger,2007,hip_hop electronic,anthemic hype confident,.86,.38,.70,.13,104
+Kanye West,Amazing,2008,hip_hop,confident dramatic,.62,.47,.74,.21,100
+Kanye West,Heartless,2008,synth_pop hip_hop,melancholic heartbreak,.51,.25,.64,.28,88
+Kanye West,Love Lockdown,2008,synth_pop hip_hop,dark emotional dramatic,.53,.24,.57,.29,70
+Kanye West,Paranoid,2009,synth_pop hip_hop,moody playful,.82,.68,.77,.07,120
+Kanye West;Rihanna,All of the Lights,2010,hip_hop,anthemic dramatic euphoric,.75,.36,.71,.08,140
+Kanye West,Dark Fantasy,2010,hip_hop,dramatic dark,.59,.45,.70,.20,90
+Kanye West,Gorgeous,2010,hip_hop rock,aggressive confident,.61,.54,.73,.20,90
+Kanye West,Lost in the World,2010,hip_hop electronic,anthemic emotional,.84,.42,.72,.08,110
+Kanye West,Monster,2010,hip_hop,dark aggressive swagger,.82,.40,.75,.10,125
+Kanye West,Power,2010,hip_hop,aggressive anthemic dramatic,.75,.42,.65,.11,77
+Kanye West,Runaway,2010,hip_hop,emotional dramatic introspective,.63,.54,.79,.21,90
+Kanye West,Clique,2012,hip_hop trap,swagger hype,.67,.38,.77,.13,70
+Kanye West,Mercy,2012,hip_hop trap,swagger hype aggressive,.68,.41,.78,.08,70
+Kanye West,Black Skinhead,2013,hip_hop rock,aggressive chaotic angry,.81,.36,.73,.08,130
+Kanye West,Blood on the Leaves,2013,hip_hop trap,dark dramatic,.76,.41,.79,.11,90
+Kanye West,Bound 2,2013,hip_hop soul,romantic nostalgic,.52,.50,.73,.20,80
+Kanye West,New Slaves,2013,hip_hop electronic,angry aggressive,.84,.37,.75,.12,80
+Kanye West;Paul McCartney,Only One,2014,pop soft_rock,tender emotional,.33,.37,.54,.80,80
+Kanye West,All Day,2015,hip_hop,aggressive hype,.78,.44,.72,.13,140
+Kanye West,Fade,2016,house hip_hop,groovy hype,.85,.64,.76,.02,120
+Kanye West,Famous,2016,hip_hop soul,dramatic swagger,.61,.49,.76,.19,90
+Kanye West,Father Stretch My Hands Pt. 1,2016,gospel hip_hop,hype anthemic,.78,.38,.74,.11,80
+Kanye West,Real Friends,2016,hip_hop,introspective melancholic,.56,.46,.70,.19,90
+Kanye West,Ultralight Beam,2016,gospel hip_hop,hopeful emotional anthemic,.57,.51,.78,.18,80
+Kanye West,Wolves,2016,hip_hop,dark dramatic,.58,.47,.78,.18,80
+Kanye West,Ghost Town,2018,rock hip_hop,hopeful emotional euphoric,.88,.58,.55,.08,80
+Kanye West,Yikes,2018,hip_hop,dark aggressive,.86,.45,.67,.11,130
+Kanye West,Follow God,2019,gospel hip_hop,hype hopeful,.75,.41,.72,.09,90
+Kanye West,Come to Life,2021,hip_hop gospel,emotional hopeful,.35,.21,.41,.68,80
+Kanye West,Heaven and Hell,2021,hip_hop,dark dramatic,.83,.42,.66,.11,140
+Kanye West,Hurricane,2021,hip_hop,dramatic emotional,.78,.42,.64,.11,100
+Kanye West,Jail,2021,hip_hop gospel,dramatic hype,.86,.44,.76,.12,90
+Kanye West,Off the Grid,2021,hip_hop trap,aggressive hype,.68,.36,.78,.08,140
+Kanye West;Ty Dolla Sign;Rich the Kid;Playboi Carti,Carnival,2024,hip_hop trap,aggressive hype swagger,.75,.45,.71,.09,140
+Kaytranada;Syd,Drive Me Crazy!,2016,house rnb,groovy sensual,.86,.67,.74,.06,115
+Kaytranada;Anderson .Paak,Glowed Up,2016,house funk,groovy upbeat,.86,.65,.79,.05,110
+Kaytranada,Lite Spots,2016,house funk,groovy energetic,.84,.71,.74,.08,120
+Kaytranada;Kali Uchis,10%,2019,house funk rnb,groovy sensual smooth,.86,.66,.81,.05,120
+Kaytranada;Teedra Moses,Be Your Girl,2019,house rnb,groovy romantic,.90,.68,.78,.04,120
+Kaytranada;H.E.R.,Intimidated,2019,house rnb,smooth sensual,.80,.61,.76,.03,120
+Kaytranada;Syd,You're the One,2019,house rnb,groovy tender,.89,.65,.84,.03,120
 Kaytranada;Lou Phelps,Call U Up,2024,house hip_hop,groovy playful energetic,.75,.65,.85,.05,124
 Kaytranada,Dance Dance Dance Dance,2024,house electronic,euphoric energetic groovy,.85,.70,.90,.02,126
 Kaytranada;Don Toliver,Feel A Way,2024,house rnb hip_hop,sensual groovy dreamy,.65,.50,.85,.10,120
@@ -81,23 +406,87 @@ Kaytranada,Championship,2025,house electronic funk,euphoric groovy energetic,.85
 Kaytranada,Do It! (Again!),2025,house electronic,euphoric party groovy,.88,.75,.88,.02,126
 Kaytranada,Good Luck,2025,house electronic,groovy dreamy hypnotic,.75,.60,.85,.05,122
 Kaytranada,Space Invader,2025,house electronic,energetic hypnotic euphoric,.85,.55,.85,.02,125
+Kendrick Lamar,Backseat Freestyle,2012,hip_hop west_coast,swagger aggressive,.75,.42,.66,.11,83
+Kendrick Lamar,"Bitch, Don't Kill My Vibe",2012,hip_hop west_coast,introspective confident,.62,.51,.76,.22,80
+Kendrick Lamar,m.A.A.d city,2012,hip_hop west_coast,aggressive dark,.83,.41,.75,.08,91
+Kendrick Lamar,Money Trees,2012,hip_hop west_coast,dreamy nostalgic moody,.61,.54,.80,.19,72
+Kendrick Lamar;Drake,Poetic Justice,2012,hip_hop west_coast rnb,romantic smooth,.62,.44,.79,.20,84
+Kendrick Lamar,Swimming Pools (Drank),2012,hip_hop west_coast,introspective dark,.59,.46,.78,.22,74
+Kendrick Lamar,i,2014,hip_hop funk,hopeful empowering upbeat,.54,.55,.78,.21,120
+Kendrick Lamar,Alright,2015,hip_hop west_coast,hopeful anthemic empowering,.55,.44,.81,.20,110
+Kendrick Lamar,King Kunta,2015,hip_hop funk west_coast,swagger confident groovy,.81,.43,.65,.10,120
+Kendrick Lamar,The Blacker the Berry,2015,hip_hop west_coast,angry aggressive,.81,.45,.70,.11,86
+Kendrick Lamar,These Walls,2015,hip_hop funk rnb,sensual groovy,.59,.47,.70,.21,100
+Kendrick Lamar,DNA.,2017,hip_hop trap,aggressive angry confident,.80,.44,.65,.09,140
+Kendrick Lamar,ELEMENT.,2017,hip_hop trap,dark aggressive,.81,.37,.64,.13,80
+Kendrick Lamar,FEEL.,2017,hip_hop,introspective moody,.63,.54,.71,.18,90
+Kendrick Lamar,HUMBLE.,2017,hip_hop trap,aggressive confident swagger,.79,.34,.76,.10,150
+Kendrick Lamar;Zacari,LOVE.,2017,hip_hop rnb,romantic smooth,.46,.50,.71,.29,126
+Kendrick Lamar;Rihanna,LOYALTY.,2017,hip_hop rnb,confident smooth,.52,.48,.80,.20,100
+Kendrick Lamar;SZA,All the Stars,2018,hip_hop rnb,anthemic dramatic empowering,.61,.44,.73,.20,97
+Kendrick Lamar,Count Me Out,2022,hip_hop,introspective emotional,.54,.48,.75,.21,80
 Kendrick Lamar,Die Hard,2022,hip_hop rnb,smooth romantic confident,.50,.45,.70,.30,100
+Kendrick Lamar,Father Time,2022,hip_hop,introspective emotional,.59,.51,.78,.23,90
 Kendrick Lamar,N95,2022,hip_hop,confident aggressive swagger,.75,.50,.80,.05,140
+Kendrick Lamar,Rich Spirit,2022,hip_hop,moody confident,.63,.50,.79,.19,80
+Kendrick Lamar,Savior,2022,hip_hop,introspective moody,.55,.50,.76,.17,80
 Kendrick Lamar,Silent Hill,2022,hip_hop west_coast,swagger hype dark,.70,.35,.80,.05,115
+Kendrick Lamar,6:16 in LA,2024,hip_hop,dark aggressive,.58,.49,.80,.20,90
+Kendrick Lamar,dodger blue,2024,hip_hop west_coast,swagger aggressive,.80,.37,.72,.08,140
+Kendrick Lamar,Euphoria,2024,hip_hop,aggressive angry confident,.84,.42,.73,.11,100
 Kendrick Lamar,gloria,2024,hip_hop rnb,romantic smooth dreamy,.45,.45,.65,.25,100
 Kendrick Lamar,heart pt. 6,2024,hip_hop rnb,introspective emotional confident,0.45,0.35,0.65,0.3,100
+Kendrick Lamar,hey now,2024,hip_hop west_coast,swagger hype,.81,.44,.70,.10,112
 Kendrick Lamar;SZA,luther,2024,hip_hop rnb,romantic smooth confident,.55,.45,.65,.30,130
+Kendrick Lamar,Meet the Grahams,2024,hip_hop,dark aggressive,.83,.41,.65,.07,60
 Kendrick Lamar,Not Like Us,2024,hip_hop west_coast,aggressive hype confident,.80,.55,.90,.01,101
+Kendrick Lamar,peekaboo,2024,hip_hop west_coast,aggressive hype,.79,.35,.74,.11,140
+Kendrick Lamar,reincarnated,2024,hip_hop,dark introspective,.55,.47,.71,.20,80
 Kendrick Lamar,squabble up,2024,hip_hop west_coast,hype confident aggressive,.75,.55,.80,.05,120
 Kendrick Lamar;Lefty Gunplay,tv off,2024,hip_hop west_coast,aggressive hype confident,.75,.40,.75,.05,120
 Kendrick Lamar,wacced out murals,2024,hip_hop west_coast,aggressive dark confident,.75,.30,.70,.05,110
+Lady Gaga,Just Dance,2008,dance_pop electropop,party hedonistic upbeat,.80,.69,.78,.03,119
+Lady Gaga,Poker Face,2008,dance_pop electropop,confident party,.81,.60,.79,.07,119
+Lady Gaga,Bad Romance,2009,dance_pop electropop,dramatic dark anthemic,.84,.69,.82,.03,119
+Lady Gaga,LoveGame,2009,dance_pop electropop,party playful,.79,.63,.81,.02,105
+Lady Gaga,Paparazzi,2009,dance_pop synth_pop,dramatic confident,.78,.67,.73,.08,115
+Lady Gaga,Alejandro,2010,synth_pop dance_pop,dramatic romantic,.82,.64,.79,.11,99
+Lady Gaga;Beyonce,Telephone,2010,dance_pop,playful hype party,.91,.68,.77,.05,122
+Lady Gaga,Born This Way,2011,dance_pop electropop,empowering anthemic,.85,.65,.75,.08,124
+Lady Gaga,Judas,2011,dance_pop electropop,dark dramatic,.85,.68,.77,.07,130
+Lady Gaga,Marry the Night,2011,dance_pop electropop,anthemic dramatic,.90,.60,.84,.04,114
+Lady Gaga,The Edge of Glory,2011,dance_pop pop_rock,anthemic euphoric emotional,.79,.69,.79,.07,128
+Lady Gaga,You and I,2011,pop_rock,romantic anthemic,.88,.59,.59,.12,127
+Lady Gaga,Applause,2013,dance_pop electropop,anthemic confident,.89,.67,.83,.05,140
+Lady Gaga,G.U.Y.,2014,dance_pop electropop,sensual dramatic,.84,.61,.84,.05,120
+Lady Gaga,Million Reasons,2016,pop soft_rock,emotional tender,.33,.38,.46,.80,126
+Lady Gaga,Perfect Illusion,2016,pop_rock dance_pop,energetic anthemic,.86,.58,.55,.08,126
+Lady Gaga,Always Remember Us This Way,2018,pop,romantic tender,.37,.25,.43,.71,68
+Lady Gaga,I'll Never Love Again,2018,pop,emotional heartbreak,.31,.24,.40,.70,70
+Lady Gaga;Bradley Cooper,Shallow,2018,pop soft_rock,emotional dramatic anthemic,.37,.28,.36,.68,96
+Lady Gaga,911,2020,dance_pop electropop,dark hypnotic,.90,.65,.77,.04,122
+Lady Gaga,Alice,2020,dance_pop house,empowering euphoric,.85,.68,.85,.02,128
+Lady Gaga,Babylon,2020,dance_pop house,playful groovy,.83,.70,.84,.08,120
+Lady Gaga,Free Woman,2020,dance_pop house,empowering euphoric,.83,.64,.76,.03,120
 Lady Gaga;Ariana Grande,Rain on Me,2020,pop dance_pop house,euphoric empowering energetic,.85,.60,.85,.02,123
+Lady Gaga;BLACKPINK,Sour Candy,2020,dance_pop electropop,playful confident,.91,.69,.75,.03,120
 Lady Gaga,Stupid Love,2020,pop dance_pop,upbeat playful energetic,.85,.75,.75,.05,118
+Lady Gaga,Hold My Hand,2022,pop soft_rock,emotional hopeful anthemic,.36,.25,.43,.72,147
+Lady Gaga;Bruno Mars,Die with a Smile,2024,pop soft_rock,romantic emotional,.35,.29,.42,.68,157
 Lady Gaga,Disease,2024,pop dance_pop rock,dark dramatic energetic,.85,.35,.65,.03,125
 Lady Gaga,Abracadabra,2025,pop dance_pop electropop,dramatic dark energetic,.85,.45,.65,.03,126
+Lady Gaga,Don't Call Tonight,2025,synth_pop,dreamy moody,.84,.67,.73,.09,110
 Lady Gaga,Garden of Eden,2025,pop dance_pop electropop,dark playful energetic,.85,.45,.70,.03,125
+Lady Gaga,How Bad Do U Want Me,2025,pop_rock dance_pop,dramatic romantic,.87,.61,.56,.11,120
+Lady Gaga,Killah,2025,dance_pop funk,sensual groovy,.83,.61,.75,.08,115
+Lady Gaga,Perfect Celebrity,2025,pop_rock electropop,dark energetic,.91,.55,.57,.12,125
+Lady Gaga,Shadow of a Man,2025,dance_pop,dark playful,.75,.72,.78,.13,120
+Lady Gaga,The Beast,2025,electropop dark_pop,dark dramatic,.81,.63,.83,.04,122
 Lady Gaga,Vanish Into You,2025,pop synth_pop,dreamy melancholic emotional,.65,.35,.65,.05,119
 Lady Gaga,Zombieboy,2025,pop dance_pop electropop,hype party energetic,.90,.55,.75,.03,130
+Lil Tecca,Did It Again,2019,trap melodic_rap,confident hype,.67,.40,.80,.08,128
+Lil Tecca,Love Me,2019,trap melodic_rap,melancholic moody,.64,.37,.74,.09,140
+Lil Tecca,Ransom,2019,trap melodic_rap,energetic hype,.69,.37,.76,.08,180
 Lil Tecca,500lbs,2023,melodic_rap hip_hop trap,swagger energetic playful,.70,.55,.75,.05,140
 Lil Tecca,Dead or Alive,2023,melodic_rap hip_hop,confident energetic moody,.70,.45,.75,.05,130
 Lil Tecca;Kodak Black,HVN ON EARTH,2023,melodic_rap trap,moody dreamy swagger,.65,.40,.75,.05,135
@@ -106,14 +495,81 @@ Lil Tecca;Don Toliver,I CAN'T LET GO,2024,melodic_rap hip_hop rnb,moody romantic
 Lil Tecca,TASTE,2024,melodic_rap hip_hop,swagger moody groovy,.65,.45,.75,.10,130
 Lil Tecca,Dark Thoughts,2025,melodic_rap hip_hop,moody dreamy melancholic,.65,.35,.75,.10,130
 Lil Tecca,Half The Plot,2025,melodic_rap hip_hop,playful chill groovy,.65,.55,.80,.10,125
+PartyNextDoor,Not Nice,2014,alt_rnb rnb,moody dark,.50,.39,.74,.16,70
+PartyNextDoor,Persian Rugs,2014,alt_rnb rnb,moody smooth,.53,.40,.65,.12,70
+PartyNextDoor;Drake,Recognize,2014,alt_rnb rnb,sensual smooth moody,.60,.38,.70,.14,70
+PartyNextDoor,Sex on the Beach,2014,alt_rnb rnb,sensual moody dark,.60,.29,.75,.15,70
+PartyNextDoor;Drake,Come and See Me,2016,alt_rnb rnb,sensual moody,.56,.39,.71,.15,70
+PartyNextDoor,Her Way,2016,alt_rnb rnb,romantic moody,.44,.39,.76,.31,95
+PartyNextDoor;Rihanna,Believe It,2020,alt_rnb dancehall,sensual groovy,.45,.42,.74,.30,100
+PartyNextDoor,Her Old Friends,2023,alt_rnb rnb,moody smooth,.51,.38,.76,.14,90
+PartyNextDoor,Cheers,2024,alt_rnb rnb,moody sensual,.53,.31,.74,.17,80
+PartyNextDoor,Control,2024,alt_rnb rnb,sensual moody,.52,.39,.68,.13,80
+PartyNextDoor,Stuck in My Ways,2024,alt_rnb rnb,moody smooth,.55,.39,.72,.12,80
+PartyNextDoor,CN Tower,2025,alt_rnb rnb,moody dark,.53,.31,.66,.13,80
+PartyNextDoor;Drake;Yebba,Die Trying,2025,alt_rnb rnb,emotional tender,.54,.42,.71,.30,80
+PartyNextDoor,Glorious,2025,alt_rnb rnb,sensual smooth,.56,.48,.77,.32,90
+PartyNextDoor,Greedy,2025,alt_rnb rnb,dark moody,.51,.37,.72,.13,80
+PartyNextDoor;Drake,Somebody Loves Me,2025,alt_rnb rnb,romantic smooth sensual,.45,.45,.78,.29,90
+PartyNextDoor,Somebody Loves Me Pt. 2,2025,alt_rnb rnb,romantic smooth,.53,.43,.72,.30,90
+PartyNextDoor,Something About You,2025,alt_rnb rnb,romantic smooth,.52,.41,.77,.32,90
+PartyNextDoor,Spider-Man Superman,2025,alt_rnb rnb,moody sensual,.57,.39,.72,.14,80
+PinkPantheress,Attracted to You,2021,uk_garage bedroom_pop,dreamy romantic,.80,.65,.80,.04,135
+PinkPantheress,Break It Off,2021,uk_garage drum_and_bass,dreamy chill nostalgic,.91,.65,.83,.03,140
+PinkPantheress,I Must Apologise,2021,uk_garage bedroom_pop,dreamy melancholic,.90,.70,.75,.07,130
 PinkPantheress,Just for me,2021,drum_and_bass bedroom_pop,dreamy romantic energetic,.80,.55,.65,.10,170
 PinkPantheress,Pain,2021,drum_and_bass bedroom_pop,dreamy melancholic energetic,.80,.50,.65,.10,170
+PinkPantheress,Passion,2021,drum_and_bass uk_garage,dreamy nostalgic,.90,.59,.82,.03,170
+PinkPantheress,Picture in My Mind,2021,uk_garage bedroom_pop,dreamy nostalgic,.80,.60,.76,.07,135
 PinkPantheress;Rema,Another Life,2023,drum_and_bass uk_garage bedroom_pop,dreamy romantic energetic,.75,.55,.65,.10,170
 PinkPantheress;Ice Spice,Boy's a liar Pt. 2,2023,pop uk_garage,playful romantic dreamy,.65,.65,.70,.10,133
+PinkPantheress,Capable of Anything,2023,drum_and_bass bedroom_pop,dreamy melancholic,.89,.60,.83,.07,170
+PinkPantheress,Feel Complete,2023,uk_garage dance_pop,upbeat dreamy,.83,.61,.74,.03,135
+PinkPantheress,Illegal,2023,uk_garage dance_pop,playful dreamy,.90,.69,.79,.02,138
 PinkPantheress,Mosquito,2023,bedroom_pop uk_garage,dreamy romantic chill,.55,.45,.60,.15,135
 PinkPantheress,Romeo,2025,uk_garage dance_pop,playful dreamy groovy,.80,.70,.80,.05,130
 PinkPantheress;Zara Larsson,Stateside,2025,pop dance_pop uk_garage,upbeat playful dreamy,.80,.70,.80,.05,130
 PinkPantheress,Tonight,2025,uk_garage bedroom_pop,dreamy playful groovy,.80,.65,.75,.10,135
+Rihanna,Pon de Replay,2005,dancehall pop,party upbeat,.71,.76,.80,.08,99
+Rihanna,SOS,2006,dance_pop,energetic party,.84,.69,.82,.04,137
+Rihanna,Unfaithful,2006,rnb pop,melancholic emotional dramatic,.34,.20,.44,.68,130
+Rihanna,Don't Stop the Music,2007,dance_pop,party hype,.80,.64,.81,.03,122
+Rihanna;Ne-Yo,Hate That I Love You,2007,rnb pop,romantic heartbreak,.45,.47,.77,.33,85
+Rihanna,Shut Up and Drive,2007,dance_pop pop_rock,energetic playful,.85,.62,.54,.08,130
+Rihanna;Jay-Z,Umbrella,2007,rnb pop,anthemic emotional dramatic,.53,.42,.77,.32,87
+Rihanna,Disturbia,2008,dance_pop,dark energetic hype,.91,.65,.83,.05,125
+Rihanna;Justin Timberlake,Rehab,2008,rnb pop,smooth emotional,.52,.42,.73,.30,100
+Rihanna,Take a Bow,2008,rnb pop,dramatic heartbreak,.40,.27,.37,.69,82
+Rihanna;Jeezy,Hard,2009,hip_hop rnb,swagger confident,.84,.46,.73,.09,140
+Rihanna,Russian Roulette,2009,pop rnb,dark dramatic,.48,.19,.65,.33,140
+Rihanna,Te Amo,2009,pop latin_pop,romantic sensual,.47,.51,.75,.28,100
+Rihanna,California King Bed,2010,pop rock,romantic emotional,.89,.60,.49,.12,78
+Rihanna,Only Girl (In the World),2010,dance_pop edm,euphoric party upbeat,.87,.60,.81,.02,126
+Rihanna,Rude Boy,2010,dancehall pop,sensual playful party,.80,.66,.90,.12,173
+Rihanna,S&M,2010,dance_pop electropop,sensual hedonistic,.90,.61,.82,.06,128
+Rihanna;Drake,What's My Name?,2010,rnb pop,romantic playful,.53,.46,.76,.27,100
+Rihanna,Man Down,2011,dancehall reggae,dark dramatic,.77,.65,.81,.09,126
+Rihanna;Calvin Harris,We Found Love,2011,dance_pop edm,euphoric anthemic party,.81,.60,.74,.07,128
+Rihanna,You Da One,2011,dancehall dance_pop,playful party,.85,.69,.81,.05,130
+Rihanna,Diamonds,2012,pop synth_pop,romantic anthemic emotional,.54,.40,.70,.31,92
+Rihanna,Where Have You Been,2012,dance_pop edm,energetic hype,.83,.65,.78,.05,127
+Rihanna,Pour It Up,2013,hip_hop trap,swagger hedonistic,.73,.35,.74,.08,75
+Rihanna;Mikky Ekko,Stay,2013,pop soft_rock,emotional tender,.40,.23,.36,.71,112
+Rihanna,Bitch Better Have My Money,2015,hip_hop trap,aggressive swagger,.69,.36,.80,.08,100
+Rihanna,Desperado,2016,rnb alt_rnb,moody confident,.52,.46,.68,.27,100
+Rihanna,Kiss It Better,2016,rnb synth_pop,sensual romantic,.50,.51,.68,.30,90
+Rihanna,Love on the Brain,2016,soul rnb,emotional romantic dramatic,.53,.47,.75,.29,80
+Rihanna,Needed Me,2016,rnb trap,dark swagger,.58,.39,.74,.17,110
+Rihanna,Same Ol' Mistakes,2016,psych_pop,dreamy introspective,.61,.55,.55,.18,105
+Rihanna,Sledgehammer,2016,pop,emotional dramatic,.34,.20,.37,.71,80
+Rihanna;Drake,Work,2016,dancehall rnb,groovy sensual,.70,.75,.87,.11,92
+Rihanna,Lift Me Up,2022,soul pop,emotional tender,.34,.27,.38,.72,70
+Slayyyter,Candy,2019,electropop hyperpop,playful hedonistic,.83,.63,.77,.05,118
+Slayyyter,Daddy AF,2019,electropop hyperpop,playful confident,.89,.67,.83,.04,125
+Slayyyter,Mine,2019,electropop hyperpop,playful dreamy,.86,.64,.85,.03,110
+Slayyyter,Self Destruct,2019,electropop synth_pop,moody dark,.88,.67,.80,.04,115
+Slayyyter,Over This!,2021,electropop hyperpop,hype playful,.84,.63,.75,.05,128
+Slayyyter,Throatzillaaa,2021,electropop hyperpop,hedonistic hype,.89,.63,.85,.04,130
 Slayyyter,Out of Time,2023,electropop dance_pop,nostalgic dreamy upbeat,.75,.50,.70,.05,120
 Slayyyter,CANNIBALISM!,2025,hyperpop electroclash rock,aggressive dark chaotic,.92,.30,.60,.02,150
 Slayyyter,CRANK,2025,hyperpop electropop electroclash,hedonistic chaotic energetic,.90,.60,.80,.02,130
@@ -121,47 +577,177 @@ Slayyyter,$T. LOSER,2026,hyperpop electropop,dramatic playful chaotic,.80,.45,.7
 Slayyyter,DANCE...,2026,electropop dance_pop hyperpop,party euphoric playful,.85,.65,.80,.02,128
 Slayyyter,GAS STATION,2026,electropop hyperpop,emotional dramatic energetic,.80,.40,.70,.05,120
 Slayyyter,YES GODDD,2026,electroclash hyperpop,aggressive dark energetic,.90,.25,.60,.02,135
+SZA,20 Something,2017,rnb alt_rnb,melancholic introspective,.37,.22,.44,.68,75
+SZA,Broken Clocks,2017,rnb alt_rnb,dreamy moody,.50,.50,.72,.30,95
+SZA,Drew Barrymore,2017,rnb alt_rnb,tender melancholic,.53,.43,.71,.30,85
+SZA,Garden (Say It Like Dat),2017,rnb alt_rnb,tender dreamy,.55,.48,.78,.30,85
+SZA,Go Gina,2017,rnb alt_rnb,playful smooth,.56,.46,.72,.33,95
+SZA,Love Galore,2017,rnb alt_rnb,smooth sensual,.54,.47,.74,.28,100
+SZA,Prom,2017,rnb alt_rnb,nostalgic melancholic,.53,.40,.69,.27,100
+SZA,Supermodel,2017,rnb alt_rnb,melancholic introspective,.45,.50,.69,.30,90
+SZA,The Weekend,2017,rnb alt_rnb,sensual smooth,.46,.41,.74,.33,80
 SZA,Good Days,2020,rnb alt_rnb,dreamy chill hopeful,.40,.40,.50,.40,121
-SZA;Doja Cat,Kiss Me More,2021,pop rnb,playful upbeat groovy,.70,.70,.85,.10,111
+SZA,I Hate U,2021,rnb alt_rnb,angry heartbreak,.51,.46,.78,.30,85
 SZA,Blind,2022,rnb alt_rnb,emotional melancholic tender,.35,.25,.45,.60,100
+SZA,F2F,2022,pop_punk rock,angry hype playful,.84,.61,.54,.10,140
+SZA,Far,2022,rnb alt_rnb,tender emotional,.50,.50,.73,.31,100
+SZA;Phoebe Bridgers,Ghost in the Machine,2022,rnb alt_rnb,dreamy introspective,.40,.31,.40,.72,75
+SZA,Gone Girl,2022,rnb alt_rnb,heartbreak playful,.46,.41,.73,.28,90
 SZA,Kill Bill,2022,rnb alt_rnb,dark playful heartbreak,.60,.40,.60,.20,90
+SZA,Love Language,2022,rnb soul,romantic tender,.50,.41,.75,.28,90
 SZA,Low,2022,rnb alt_rnb,dark sensual moody,.55,.30,.65,.15,100
 SZA,Nobody Gets Me,2022,rnb alt_rnb,heartbreak emotional tender,.40,.20,.50,.50,90
+SZA,Notice Me,2022,rnb alt_rnb,playful heartbreak,.53,.45,.70,.32,90
+SZA,Seek & Destroy,2022,rnb alt_rnb,aggressive dramatic,.46,.44,.72,.31,100
 SZA,Shirt,2022,rnb alt_rnb,sensual moody dreamy,.55,.35,.65,.20,110
+SZA,Smoking on My Ex Pack,2022,rnb hip_hop,aggressive confident,.58,.54,.74,.21,110
 SZA,Snooze,2022,rnb alt_rnb,romantic sensual chill,.40,.40,.60,.40,143
+SZA,Special,2022,rnb alt_rnb,melancholic emotional,.30,.25,.43,.69,70
+SZA;Don Toliver,Used,2022,rnb alt_rnb,moody sensual,.51,.44,.69,.28,90
 SZA,Saturn,2024,rnb alt_rnb,dreamy introspective chill,.45,.30,.60,.40,120
+Tame Impala,Solitude Is Bliss,2010,psych_pop rock,dreamy euphoric,.63,.52,.51,.22,120
+Tame Impala,Why Won't You Make Up Your Mind?,2010,psych_pop psychedelic_rap,dreamy hypnotic,.62,.50,.53,.20,98
+Tame Impala,Apocalypse Dreams,2012,psych_pop,dreamy euphoric,.62,.48,.49,.21,115
+Tame Impala,Elephant,2012,psych_pop rock,swagger hypnotic,.68,.55,.53,.23,105
+Tame Impala,Feels Like We Only Go Backwards,2012,psych_pop,dreamy nostalgic romantic,.68,.50,.58,.22,90
+Tame Impala,'Cause I'm a Man,2015,psych_pop synth_pop,introspective dreamy,.58,.53,.54,.17,95
+Tame Impala,Eventually,2015,psych_pop,melancholic dreamy,.65,.52,.59,.21,103
+Tame Impala,Let It Happen,2015,psych_pop electronic,euphoric hypnotic anthemic,.61,.45,.50,.22,110
+Tame Impala,"New Person, Same Old Mistakes",2015,psych_pop,hypnotic introspective,.60,.50,.51,.18,112
+Tame Impala,The Less I Know the Better,2015,psych_pop funk,groovy playful heartbreak,.62,.47,.57,.18,117
+Tame Impala,Yes I'm Changing,2015,psych_pop,tender dreamy,.59,.49,.49,.18,110
 Tame Impala,Borderline,2019,psych_pop indie dance_pop,dreamy groovy romantic,.65,.55,.65,.10,113
+Tame Impala,Patience,2019,psych_pop house,hopeful dreamy,.63,.53,.57,.20,122
 Tame Impala,Breathe Deeper,2020,psych_pop dance_pop,groovy euphoric dreamy,.75,.60,.80,.05,120
+Tame Impala,Is It True,2020,psych_pop synth_pop,romantic dreamy,.57,.49,.49,.19,118
+Tame Impala,It Might Be Time,2020,psych_pop,moody hypnotic,.60,.46,.51,.17,100
 Tame Impala,Lost in Yesterday,2020,psych_pop indie,nostalgic dreamy groovy,.60,.50,.70,.10,100
+Tame Impala,On Track,2020,psych_pop,dreamy introspective,.66,.54,.52,.19,120
+Tame Impala,Posthumous Forgiveness,2020,psych_pop,emotional introspective,.68,.48,.50,.19,110
 Tame Impala,Dracula,2025,psych_pop indie dance_pop,groovy dreamy party,.80,.60,.75,.05,120
 Tame Impala,End of Summer,2025,psych_pop electronic house,hypnotic dreamy euphoric,.75,.45,.65,.05,122
 Tame Impala,Loser,2025,psych_pop indie dance_pop,dreamy groovy moody,.70,.50,.65,.05,125
+Tame Impala,Oblivion,2025,psych_pop synth_pop,dreamy hypnotic,.63,.55,.58,.23,112
+Tame Impala,Obsolete,2025,psych_pop,dreamy melancholic,.66,.51,.58,.21,110
+Tame Impala,Piece of Heaven,2025,psych_pop synth_pop,dreamy tender,.62,.45,.53,.17,105
+The Neighbourhood,Female Robbery,2012,indie alt_pop,dark moody,.46,.20,.58,.28,82
+The Neighbourhood,Sweater Weather,2012,indie alt_pop,moody romantic chill,.52,.19,.58,.28,124
+The Neighbourhood,Afraid,2013,indie alt_pop,dark moody,.46,.25,.58,.32,83
+The Neighbourhood,Everybody's Watching Me (Uh Oh),2013,indie alt_pop,dark moody,.49,.17,.63,.31,93
+The Neighbourhood,A Little Death,2015,indie alt_pop,dark moody,.50,.25,.57,.28,90
+The Neighbourhood,Cry Baby,2015,indie alt_pop,moody melancholic,.49,.23,.58,.31,85
+The Neighbourhood,Daddy Issues,2015,indie alt_pop,moody melancholic,.53,.24,.65,.30,85
+The Neighbourhood,Prey,2015,indie alt_pop,dark moody,.50,.25,.55,.32,90
+The Neighbourhood,R.I.P. 2 My Youth,2015,indie alt_pop,nostalgic melancholic,.51,.17,.58,.28,90
+The Neighbourhood,The Beach,2015,indie alt_pop,dreamy moody,.55,.16,.55,.30,90
+The Neighbourhood,Nervous,2018,indie alt_pop,moody dreamy,.48,.26,.63,.30,90
+The Neighbourhood,Reflections,2018,indie alt_pop,dreamy introspective,.53,.18,.58,.32,100
+The Neighbourhood,Sadderdaze,2018,indie alt_pop,melancholic moody,.55,.25,.61,.33,90
+The Neighbourhood,Scary Love,2018,indie alt_pop,dark moody,.54,.20,.63,.31,90
+The Neighbourhood,Softcore,2018,indie alt_pop,melancholic moody,.47,.23,.63,.29,90
+The Neighbourhood,Hula Girl,2025,indie alt_pop,dreamy moody,.50,.22,.61,.32,100
+The Neighbourhood,Private,2025,indie alt_pop,dreamy moody,.52,.25,.62,.33,100
+The Weeknd,The Morning,2011,alt_rnb,dark moody,.50,.21,.60,.29,100
+The Weeknd,What You Need,2011,alt_rnb,sensual moody,.45,.23,.64,.30,100
+The Weeknd,Wicked Games,2011,alt_rnb rnb,dark sensual moody,.45,.23,.64,.29,78
+The Weeknd,Rolling Stone,2012,alt_rnb,dark sensual,.55,.22,.60,.31,105
+The Weeknd,Love in the Sky,2013,alt_rnb,sensual dreamy,.44,.45,.67,.32,100
+The Weeknd,Earned It,2014,rnb,sensual dramatic romantic,.50,.40,.78,.29,120
+The Weeknd,Often,2014,alt_rnb trap,sensual dark,.60,.39,.74,.12,95
+The Weeknd,Can't Feel My Face,2015,pop synth_pop,upbeat hedonistic groovy,.76,.72,.70,.12,108
+The Weeknd,In the Night,2015,synth_pop pop,dramatic emotional,.83,.66,.76,.12,120
+The Weeknd,The Hills,2015,alt_rnb trap,dark moody sensual,.59,.33,.68,.16,113
+The Weeknd,Die for You,2016,rnb synth_pop,romantic emotional,.56,.47,.76,.29,67
+The Weeknd,I Feel It Coming,2016,synth_pop funk,romantic smooth groovy,.53,.48,.69,.29,93
+The Weeknd,Party Monster,2016,alt_rnb,dark hedonistic,.54,.23,.61,.29,78
+The Weeknd,Reminder,2016,alt_rnb trap,swagger confident,.53,.37,.76,.14,160
+The Weeknd,Starboy,2016,pop synth_pop,swagger confident dark,.57,.36,.74,.14,186
+The Weeknd,Call Out My Name,2018,rnb,heartbreak emotional,.36,.23,.37,.70,134
 The Weeknd,Blinding Lights,2019,synth_pop pop rnb,euphoric nostalgic energetic,.80,.65,.50,.00,171
+The Weeknd,Heartless,2019,trap rnb,dark swagger,.56,.40,.74,.13,100
+The Weeknd,After Hours,2020,synth_pop alt_rnb,dark dramatic,.45,.14,.56,.33,108
+The Weeknd,Alone Again,2020,synth_pop alt_rnb,dark melancholic,.52,.24,.59,.28,80
+The Weeknd,Hardest to Love,2020,synth_pop,melancholic,.82,.75,.80,.08,100
+The Weeknd,In Your Eyes,2020,synth_pop pop,romantic hopeful upbeat,.76,.72,.77,.08,100
 The Weeknd,Save Your Tears,2020,synth_pop pop,melancholic nostalgic dreamy,.65,.60,.70,.03,118
+The Weeknd,Scared to Live,2020,pop,emotional tender,.34,.23,.45,.70,60
+The Weeknd,Snowchild,2020,synth_pop alt_rnb,dark moody,.52,.14,.65,.30,115
+The Weeknd,Too Late,2020,synth_pop,dark moody,.55,.26,.59,.28,100
 The Weeknd,Take My Breath,2021,synth_pop dance_pop,sensual dark energetic,.75,.45,.75,.02,120
+The Weeknd,Dawn FM,2022,synth_pop,dreamy hypnotic,.49,.16,.59,.29,100
+The Weeknd,Gasoline,2022,synth_pop,dark dramatic,.51,.16,.62,.30,100
+The Weeknd,How Do I Make You Love Me?,2022,synth_pop disco,euphoric upbeat,.85,.62,.79,.02,118
+The Weeknd,Is There Someone Else?,2022,synth_pop,moody sensual,.48,.16,.65,.30,100
+The Weeknd,Less Than Zero,2022,synth_pop pop,melancholic nostalgic,.75,.70,.74,.11,120
 The Weeknd,Out of Time,2022,synth_pop rnb,nostalgic melancholic dreamy,.55,.45,.65,.10,95
 The Weeknd,Sacrifice,2022,synth_pop dance_pop,groovy dark energetic,.75,.60,.80,.03,122
+The Weeknd;Jennie;Lily-Rose Depp,One of the Girls,2023,synth_pop pop,sensual dark,.56,.21,.57,.31,100
+The Weeknd;Madonna;Playboi Carti,Popular,2023,pop trap,swagger confident,.79,.71,.79,.08,98
 The Weeknd;Playboi Carti,Timeless,2024,rnb hip_hop,moody dark swagger,.55,.35,.75,.05,120
+The Weeknd,Baptized in Fear,2025,synth_pop,dark moody,.54,.19,.65,.29,100
+The Weeknd,Big Sleep,2025,synth_pop,dreamy emotional,.55,.19,.57,.29,90
 The Weeknd,Cry for Me,2025,rnb synth_pop,dark melancholic heartbreak,.60,.30,.55,.10,150
+The Weeknd,Enjoy the Show,2025,synth_pop,dark dramatic,.56,.23,.58,.31,100
 The Weeknd,Given Up on Me,2025,rnb synth_pop,melancholic emotional dreamy,.55,.30,.55,.10,100
+The Weeknd,Hurry Up Tomorrow,2025,synth_pop,dark emotional,.56,.21,.56,.32,100
+The Weeknd,Niagara Falls,2025,synth_pop,dark dreamy,.46,.22,.65,.30,108
 The Weeknd,Open Hearts,2025,synth_pop rnb,romantic dreamy dark,.60,.35,.60,.05,110
 The Weeknd;Anitta,Sao Paulo,2025,rnb synth_pop baile_funk,groovy dark party,.75,.55,.80,.05,105
 The Weeknd,Take Me Back to LA,2025,rnb synth_pop,nostalgic emotional moody,.55,.30,.55,.10,105
 The Weeknd,Wake Me Up,2025,rnb synth_pop,dark moody emotional,.55,.25,.55,.10,100
+Travis Scott,Antidote,2015,trap hip_hop,hedonistic hypnotic,.75,.44,.80,.09,130
+Travis Scott;Bryson Tiller,First Take,2016,trap rnb,moody smooth,.49,.29,.69,.16,70
+Travis Scott;Kendrick Lamar,goosebumps,2016,trap hip_hop,hypnotic swagger,.53,.31,.65,.16,130
+Travis Scott;Young Thug,Pick Up the Phone,2016,trap rnb,moody smooth,.50,.40,.74,.17,80
+Travis Scott,Butterfly Effect,2017,trap hip_hop,hypnotic moody,.58,.32,.76,.16,140
+Travis Scott;Drake,SICKO MODE,2018,trap hip_hop,hype swagger chaotic,.68,.46,.80,.07,155
+Travis Scott,STARGAZING,2018,trap psychedelic_rap,hypnotic dreamy,.64,.36,.72,.08,140
+Travis Scott,STOP TRYING TO BE GOD,2018,trap hip_hop,dreamy emotional hypnotic,.51,.37,.68,.13,80
+Travis Scott,YOSEMITE,2018,trap hip_hop,moody dreamy,.58,.32,.71,.17,70
+Travis Scott,HIGHEST IN THE ROOM,2019,trap hip_hop,hypnotic hedonistic,.61,.34,.69,.17,156
+Travis Scott;Young Thug;M.I.A.,FRANCHISE,2020,trap hip_hop,hype aggressive,.74,.38,.77,.09,140
+Travis Scott;Kid Cudi,THE SCOTTS,2020,trap hip_hop,swagger hype,.69,.41,.79,.11,100
 Travis Scott,Delresto (Echoes),2023,hip_hop psychedelic_rap,dreamy dark moody,.60,.30,.65,.10,120
+Travis Scott,ESCAPE PLAN,2023,trap hip_hop,dark hypnotic,.58,.30,.69,.16,70
 Travis Scott,Fe!n,2023,hip_hop trap psychedelic_rap,hype dark energetic,.80,.30,.75,.05,150
+Travis Scott;Teezo Touchdown,HYAENA,2023,trap hip_hop,hype chaotic,.74,.35,.79,.09,120
 Travis Scott,I KNOW ?,2023,hip_hop rnb funk,groovy moody sensual,.60,.50,.80,.10,100
+Travis Scott;Playboi Carti,MAFIA,2023,trap hip_hop,aggressive hype,.73,.35,.73,.09,150
 Travis Scott;Drake,Meltdown,2023,hip_hop trap,hype dark swagger,.80,.35,.70,.05,130
+Travis Scott,MY EYES,2023,trap melodic_rap,dreamy emotional,.55,.30,.66,.13,82
 Travis Scott,Sirens,2023,hip_hop trap,moody dreamy dark,.65,.35,.65,.10,120
+Travis Scott,SKYFALL,2023,trap hip_hop,hype swagger,.65,.41,.72,.07,140
+Travis Scott,TELEKINESIS,2023,trap melodic_rap,dreamy hypnotic,.57,.35,.70,.16,115
+Travis Scott;Bad Bunny;The Weeknd,THANK GOD,2023,trap hip_hop,dark hypnotic,.53,.33,.66,.16,100
 Travis Scott,Topia Twins,2023,hip_hop trap psychedelic_rap,dark moody energetic,.75,.30,.70,.05,140
+Tyler The Creator,Yonkers,2011,hip_hop rap,aggressive dark chaotic,.86,.40,.66,.08,88
+Tyler The Creator,911 / Mr. Lonely,2017,hip_hop funk,melancholic introspective,.60,.48,.76,.20,100
+Tyler The Creator,Boredom,2017,neo_soul alt_rnb,dreamy chill,.47,.43,.72,.31,90
+Tyler The Creator;Kali Uchis,See You Again,2017,neo_soul alt_rnb,romantic dreamy tender,.49,.42,.77,.29,90
+Tyler The Creator;A$AP Rocky,WHO DAT BOY,2017,hip_hop trap,aggressive hype,.78,.45,.68,.08,78
+Tyler The Creator,A BOY IS A GUN*,2019,hip_hop rnb,heartbreak emotional,.51,.49,.72,.30,90
+Tyler The Creator,EARFQUAKE,2019,hip_hop rnb,romantic heartbreak,.47,.42,.75,.31,80
+Tyler The Creator,"GONE, GONE / THANK YOU",2019,hip_hop rnb,emotional heartbreak,.50,.50,.76,.30,100
+Tyler The Creator,I THINK,2019,funk rnb,romantic groovy,.54,.39,.71,.30,130
+Tyler The Creator,NEW MAGIC WAND,2019,hip_hop synth_pop,dark aggressive,.78,.39,.69,.08,88
+Tyler The Creator,CORSO,2021,hip_hop,confident swagger,.80,.44,.73,.08,130
+Tyler The Creator;Lil Wayne,HOT WIND BLOWS,2021,hip_hop funk,nostalgic smooth,.63,.49,.73,.17,90
+Tyler The Creator;Lil Uzi Vert;Pharrell Williams,JUGGERNAUT,2021,hip_hop trap,swagger hype,.76,.43,.73,.11,85
 Tyler The Creator,Lumberjack,2021,hip_hop rap,hype swagger aggressive,.80,.45,.70,.05,140
+Tyler The Creator,MASSA,2021,hip_hop,confident chill,.56,.44,.77,.19,90
+Tyler The Creator,RISE!,2021,hip_hop,energetic confident,.75,.41,.76,.12,130
 Tyler The Creator,Sweet / I Thought You Wanted to Dance,2021,hip_hop rnb funk,groovy romantic dreamy,.55,.65,.65,.20,110
+Tyler The Creator,WILSHIRE,2021,hip_hop rnb,nostalgic romantic introspective,.55,.47,.74,.27,100
 Tyler The Creator,WUSYANAME,2021,hip_hop rnb,romantic groovy nostalgic,.55,.60,.75,.20,92
 Tyler The Creator,Balloon,2024,hip_hop rap,hype playful energetic,.85,.50,.80,.05,140
 Tyler The Creator,Darling I,2024,hip_hop rnb,romantic dreamy tender,.45,.40,.60,.25,95
 Tyler The Creator,Hey Jane,2024,hip_hop rnb,emotional moody tender,.45,.25,.55,.30,95
+Tyler The Creator,JUDGE JUDY,2024,hip_hop rnb,playful groovy,.56,.55,.80,.17,100
 Tyler The Creator,Like Him,2024,hip_hop rnb,emotional nostalgic tender,.45,.30,.55,.30,100
 Tyler The Creator,Noid,2024,hip_hop rap,aggressive dark energetic,.75,.35,.70,.05,145
+Tyler The Creator,RAH TAH TAH,2024,hip_hop trap,aggressive hype,.77,.37,.65,.10,140
+Tyler The Creator,ST. CHROMA,2024,hip_hop,dramatic hype,.74,.41,.72,.10,110
 Tyler The Creator,Sticky,2024,hip_hop rap,hype swagger groovy,.85,.45,.85,.05,130
+Tyler The Creator,TAKE YOUR MASK OFF,2024,hip_hop rnb,emotional introspective,.47,.49,.74,.32,90
 Tyler The Creator,Thought I Was Dead,2024,hip_hop rap,hype aggressive playful,.80,.45,.75,.05,130
 Tyler The Creator,Sugar on My Tongue,2025,hip_hop funk,groovy playful energetic,.80,.70,.80,.05,120
