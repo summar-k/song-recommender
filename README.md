@@ -43,15 +43,6 @@ Then open `http://127.0.0.1:5000` in your browser.
 python recommender.py "Bad Bunny, SZA, Tame Impala"
 ```
 
-## Turn on the Claude features (optional)
-
-Set your key before running the app (Mac: `export ANTHROPIC_API_KEY=your-key`, Windows PowerShell: `$env:ANTHROPIC_API_KEY="your-key"`). Then:
-
-- Each recommendation gets a personal "why you'd like this" sentence.
-- Artists that aren't in `songs.csv` still work, because Claude describes their style.
-- `python autotag.py "Artist - Title"` has Claude fill in a new song's year, genres, moods and audio features, and shows you the result before saving it. Check the release year it gives you.
-Without a key everything else still works. Visitors are limited to 30 Claude-backed requests per hour (change it with `CLAUDE_LIMIT_PER_HOUR`).
-
 ## How it works
 
 - **scikit-learn:** TF-IDF on genre and mood tags, scaled audio features, and KMeans style clusters.

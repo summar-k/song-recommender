@@ -208,3 +208,5 @@ footer { margin-top: 56px; text-align: center; font-size: 0.8rem; color: #5b667d
   .match small { display: inline; }
   .taste .label { width: 100%; }
 }
+
+footer .copy { margin-top: 10px; color: #7b86a0; }

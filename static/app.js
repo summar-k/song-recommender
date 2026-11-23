@@ -104,23 +104,11 @@
       const res = await post("/api/recommend", body);
       if (mine !== token) return;
       render(res);
-      explainWithClaude(body, mine);
     } catch (e) {
       setStatus("something went wrong. is the server still running?", true);
     } finally {
       if (mine === token) { busy = false; go.disabled = false; }
     }
-  }
-
-  async function explainWithClaude(body, mine) {
-    if (!window.CLAUDE_ON) return;
-    try {
-      const { why } = await post("/api/explain", body);
-      if (mine !== token) return;
-      document.querySelectorAll(".card").forEach((c) => {
-        if (why[c.dataset.id]) c.querySelector(".why").textContent = why[c.dataset.id];
-      });
-    } catch (e) { /* the built-in sentence stays */ }
   }
 
   /* ---------- drawing results ---------- */
@@ -134,7 +122,7 @@
   function render(res) {
     const notes = [];
     if (res.blocked.length) notes.push("skipped: " + res.blocked.join(", ") + " (blocked in config.py)");
-    if (res.missing.length) notes.push("not recognized: " + res.missing.join(", "));
+    if (res.missing.length) notes.push("not in the catalog: " + res.missing.join(", "));
     setStatus(notes.join("  ·  "), false);
     if (!res.profile) { resultsEl.hidden = true; return; }
 
@@ -193,11 +181,8 @@
     try {
       const [names, st] = await Promise.all([fetch("/api/artists").then((r) => r.json()), fetch("/api/status").then((r) => r.json())]);
       allArtists = names;
-      window.CLAUDE_ON = st.claude;
-      const foot = $("footer");
-      foot.replaceChildren(
-        el("div", "", st.songs + " songs  ·  scikit-learn + PyTorch + text embeddings"),
-        el("div", "", st.claude ? "Claude explanations on" : "Claude explanations off: set ANTHROPIC_API_KEY to turn them on"));
+      const foot = $("info");
+      foot.replaceChildren(el("div", "", st.songs + " songs  \u00b7  scikit-learn + PyTorch + text embeddings"));
     } catch (e) { /* offline: typing still works */ }
     if (artists.length) run();
   }

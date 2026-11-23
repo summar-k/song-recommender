@@ -1,7 +1,6 @@
-"""Trend-aware song recommender (scikit-learn + PyTorch + text embeddings, optional Claude).
+"""Trend-aware song recommender (scikit-learn + PyTorch + text embeddings).
 
     python recommender.py "Bad Bunny, SZA, Tame Impala"
-    python recommender.py "Doechii" --explain        # needs ANTHROPIC_API_KEY
 """
 import argparse
 import difflib
@@ -11,10 +10,8 @@ from collections import Counter
 import numpy as np
 
 import data
-import claude_tools
-from claude_tools import make_client
 from config import (BASE_YEAR, BLOCKED_ARTISTS, DATA_FILE, FEEDBACK_MIN_VOTES, FEEDBACK_WEIGHT,
-                    NUMERIC, RECENCY_BONUS, RECENT_SPAN, SPACE_WEIGHTS)
+                    RECENCY_BONUS, RECENT_SPAN, SPACE_WEIGHTS)
 from feedback import PreferenceModel
 from models import FeatureBuilder, cluster_styles, encode_styles, train_autoencoder
 from textembed import TextEmbedder, describe_song
@@ -25,10 +22,9 @@ def song_id(s):
 
 
 class SongRecommender:
-    def __init__(self, songs=None, client=None, use_torch=True, use_text=True, seed=0):
+    def __init__(self, songs=None, use_torch=True, use_text=True, seed=0):
         self.songs = songs if songs is not None else data.load_songs(DATA_FILE)
-        self.client, self.use_torch, self.use_text, self.seed = client, use_torch, use_text, seed
-        self._virtual = {}          # artists Claude described for us: name -> (song, vectors)
+        self.use_torch, self.use_text, self.seed = use_torch, use_text, seed
         self._fit()
 
     # ---------- fitting ----------
@@ -72,30 +68,6 @@ class SongRecommender:
     def artist_names(self):
         return sorted(set(self.artists.values()), key=str.casefold)
 
-    def _vectors_for(self, song):
-        """Vectors for a song that isn't in the catalog, in every fitted space."""
-        X = self.fb.transform([song])
-        v = {"features": X[0]}
-        if "style" in self.spaces:
-            v["style"] = encode_styles(self.ae, X)[0]
-        if "text" in self.spaces:
-            v["text"] = self.embedder.encode([describe_song(song)])[0]
-        return v
-
-    def add_artist_with_ai(self, name):
-        """Claude infers an unknown artist's style so they can still seed a profile."""
-        if name in self._virtual:
-            return name
-        d = claude_tools.infer_artist(self.client, name)
-        if not d:
-            return None
-        s = data._make(name, f"(style of {name})", 0, d["genres"], d["moods"],
-                       [d[k] for k in NUMERIC])
-        if not data.is_allowed(s["artists"], s["genres"]):
-            return None
-        self._virtual[name] = (s, self._vectors_for(s))
-        return name
-
     # ---------- profile ----------
     def describe(self, rows, idx):
         top = lambda key, k: [t for t, _ in Counter(t for r in rows for t in r[key]).most_common(k)]
@@ -121,32 +93,18 @@ class SongRecommender:
             sims += self.weights[k] * (M @ (c / np.linalg.norm(c)))
         return sims
 
-    def recommend(self, artists, n=10, per_artist=2, liked=(), disliked=(), use_ai=True):
-        found, missing, blocked, virtual = [], [], [], []
+    def recommend(self, artists, n=10, per_artist=2, liked=(), disliked=()):
+        found, missing, blocked = [], [], []
         for a in artists:
             if a.strip().casefold() in BLOCKED_ARTISTS:
                 blocked.append(a.strip())
                 continue
             hit = self.find_artist(a)
-            if hit:
-                found.append(hit)
-                continue
-            if a.strip() in self._virtual:      # described by Claude earlier
-                virtual.append(a.strip())
-                continue
-            if self.client and use_ai:
-                try:
-                    hit = self.add_artist_with_ai(a.strip())
-                except Exception:
-                    hit = None
-            if hit:
-                virtual.append(hit)
-            else:
-                missing.append(a.strip())
+            (found if hit else missing).append(hit or a.strip())
         idx = [i for i, s in enumerate(self.songs) if set(s["artists"]) & set(found)]
-        out = {"found": found + virtual, "missing": missing, "blocked": blocked,
+        out = {"found": found, "missing": missing, "blocked": blocked,
                "profile": None, "songs": [], "feedback_used": False}
-        if not idx and not virtual:
+        if not idx:
             return out
 
         # per-artist taste vectors (used for the combined taste AND for "closest artist")
@@ -154,8 +112,6 @@ class SongRecommender:
         for a in found:
             rows = [i for i in idx if a in self.songs[i]["artists"]]
             groups[a] = {k: M[rows] for k, M in self.spaces.items()}
-        for a in virtual:
-            groups[a] = {k: v[None, :] for k, v in self._virtual[a][1].items()}
         seed_vecs = {k: np.vstack([g[k] for g in groups.values()]) for k in self.spaces}
 
         sims = self._similarity(seed_vecs)
@@ -171,8 +127,8 @@ class SongRecommender:
             sims = sims + FEEDBACK_WEIGHT * pref.score(Z)
             out["feedback_used"] = True
 
-        profile_rows = [self.songs[i] for i in idx] + [self._virtual[a][0] for a in virtual]
-        profile = out["profile"] = self.describe(profile_rows, idx or [0])
+        profile_rows = [self.songs[i] for i in idx]
+        profile = out["profile"] = self.describe(profile_rows, idx)
         tags = set(profile["genres"] + profile["moods"])
         skip = set(dis_i)
         per, picks = {}, []
@@ -191,7 +147,7 @@ class SongRecommender:
                     closest, best = a, c
             because = [t for t in s["genres"] + s["moods"] if t in tags][:3]
             why = (f"Sounds closest to {closest}" +
-                   (f" - shares {', '.join(because)}." if because else "."))
+                   (f" - shares {', '.join(t.replace('_', ' ') for t in because)}." if because else "."))
             picks.append({"id": song_id(s), "artist": " & ".join(s["artists"]),
                           "title": s["title"], "year": s["year"],
                           "score": round(float(sims[i]), 2),
@@ -202,25 +158,18 @@ class SongRecommender:
         out["songs"] = picks
         return out
 
-    def explain(self, result):
-        """Claude: one personalised sentence per pick -> {song_id: sentence}."""
-        return claude_tools.explain_picks(self.client, result["found"], result["profile"],
-                                          result["songs"])
-
 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("artists", nargs="*", help='e.g. "Bad Bunny, SZA"')
     ap.add_argument("-n", type=int, default=10)
-    ap.add_argument("--explain", action="store_true", help="have Claude explain each pick")
     ap.add_argument("--no-torch", action="store_true", help="skip the PyTorch autoencoder")
     ap.add_argument("--no-text", action="store_true", help="skip the text embeddings")
     args = ap.parse_args()
     names = [a for a in " ".join(args.artists).split(",") if a.strip()] or \
         [a for a in input("Artists you like (comma-separated): ").split(",") if a.strip()]
 
-    client = make_client()
-    rec = SongRecommender(client=client, use_torch=not args.no_torch, use_text=not args.no_text)
+    rec = SongRecommender(use_torch=not args.no_torch, use_text=not args.no_text)
     r = rec.recommend(names, n=args.n)
     if r["blocked"]:
         print("Skipped (blocked in config.py):", ", ".join(r["blocked"]))
@@ -232,15 +181,9 @@ def main():
     print(f"\nYour taste: {', '.join(p['genres'])} | moods: {', '.join(p['moods'])}")
     print(f"Vibe: {', '.join(p['traits'])} (~{p['avg_tempo']} BPM)")
     print(f"Style clusters: {' + '.join(p['style_clusters'])}\n")
-    why = {}
-    if args.explain and client:
-        try:
-            why = rec.explain(r)
-        except Exception as e:
-            print(f"(Claude explanations failed: {e})\n")
     for i, s in enumerate(r["songs"], 1):
         print(f"{i:>2}. {s['title']} - {s['artist']} ({s['year']}) {s['score']:.0%}")
-        print(f"    {why.get(s['id'], s['why'])}")
+        print(f"    {s['why']}")
 
 
 if __name__ == "__main__":
