@@ -26,6 +26,11 @@ def artists():
     return jsonify(rec.artist_names())
 
 
+@app.get("/api/genres")
+def genres():
+    return jsonify(rec.genre_names())
+
+
 @app.post("/api/recommend")
 def recommend():
     body = request.get_json(force=True, silent=True) or {}

@@ -4,6 +4,7 @@
   const statusEl = $("status"), resultsEl = $("results"), cardsEl = $("cards");
 
   let artists = [];            // artists you've added
+  let genreSet = new Set();    // genre names, for the small "genre" label
   let allArtists = [];         // names for suggestions
   let liked = new Set(), disliked = new Set();
   let busy = false, token = 0, active = -1, shown = [];
@@ -33,10 +34,11 @@
       chip.appendChild(x);
       chipsEl.appendChild(chip);
     });
-    input.placeholder = artists.length ? "add another" : "add an artist you like";
+    input.placeholder = artists.length ? "add another" : "an artist or genre, e.g. pop, don toliver";
   }
 
   function addArtist(name) {
+    if (name.includes(",")) { name.split(",").forEach(addArtist); return; }   // "pop, don toliver"
     name = name.trim();
     const exact = allArtists.find((a) => norm(a) === norm(name));
     if (exact) name = exact;
@@ -57,6 +59,7 @@
     suggest.replaceChildren();
     shown.forEach((a, i) => {
       const li = el("li", i === active ? "on" : "", a);
+      if (genreSet.has(norm(a))) li.appendChild(el("span", "kind", " genre"));
       li.onmousedown = (e) => { e.preventDefault(); addArtist(a); };
       suggest.appendChild(li);
     });
@@ -179,8 +182,9 @@
     artists = saved.artists || []; liked = new Set(saved.liked || []); disliked = new Set(saved.disliked || []);
     renderChips();
     try {
-      const [names, st] = await Promise.all([fetch("/api/artists").then((r) => r.json()), fetch("/api/status").then((r) => r.json())]);
-      allArtists = names;
+      const [names, gens, st] = await Promise.all([fetch("/api/artists").then((r) => r.json()), fetch("/api/genres").then((r) => r.json()), fetch("/api/status").then((r) => r.json())]);
+      genreSet = new Set(gens.map(norm));
+      allArtists = names.concat(gens.filter((g) => !names.some((n) => norm(n) === norm(g))));
       const foot = $("info");
       foot.replaceChildren(el("div", "", st.songs + " songs  \u00b7  scikit-learn + PyTorch + text embeddings"));
     } catch (e) { /* offline: typing still works */ }

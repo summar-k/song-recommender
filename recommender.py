@@ -45,6 +45,11 @@ class SongRecommender:
             self.spaces.get("style", X), self.songs, seed=self.seed)
         # only PRIMARY artists are searchable; featured-only names (e.g. a guest rapper) are not
         self.artists = {self._norm(s["artist"]): s["artist"] for s in self.songs}
+        gc = Counter(g for s in self.songs for g in s["genres"])
+        self.genres = {self._gkey(g): g for g, c in gc.items() if c >= 5}
+        self.genres.update({"rb": "rnb", "randb": "rnb", "rnb": "rnb", "hiphop": "hip_hop",
+                            "dance": "dance_pop", "electronic": "electronic", "latin": "latin_pop",
+                            "alternative": "alt_pop", "alt": "alt_pop", "indie": "indie"})
         self.ids = {song_id(s): i for i, s in enumerate(self.songs)}
         tw = sum(SPACE_WEIGHTS[k] for k in self.spaces)
         self.weights = {k: SPACE_WEIGHTS[k] / tw for k in self.spaces}
@@ -58,6 +63,24 @@ class SongRecommender:
     def _norm(name):
         """'A$AP Rocky' and 'asap rocky' should match: drop punctuation, ignore case."""
         return re.sub(r"[^a-z0-9 ]", "", name.casefold().replace("$", "s")).strip()
+
+    @staticmethod
+    def _gkey(name):
+        return re.sub(r"[^a-z0-9]", "", name.casefold())
+
+    @staticmethod
+    def genre_label(tag):
+        return {"rnb": "r&b", "alt_rnb": "alt r&b"}.get(tag, tag.replace("_", " "))
+
+    def genre_names(self):
+        return sorted({self.genre_label(g) for g in self.genres.values()})
+
+    def find_genre(self, name):
+        key = self._gkey(name)
+        if key in self.genres:
+            return self.genres[key]
+        close = difflib.get_close_matches(key, self.genres, n=1, cutoff=0.85)
+        return self.genres[close[0]] if close else None
 
     def find_artist(self, name):
         key = self._norm(name)
@@ -102,25 +125,37 @@ class SongRecommender:
         return sims
 
     def recommend(self, artists, n=10, per_artist=2, liked=(), disliked=()):
-        found, missing, blocked = [], [], []
+        found, genres_found, missing, blocked = [], [], [], []
         for a in artists:
             if a.strip().casefold() in BLOCKED_ARTISTS:
                 blocked.append(a.strip())
                 continue
-            hit = self.find_artist(a)
-            (found if hit else missing).append(hit or a.strip())
-        idx = [i for i, s in enumerate(self.songs) if set(s["artists"]) & set(found)]
-        out = {"found": found, "missing": missing, "blocked": blocked,
+            exact = self._norm(a) in self.artists
+            hit = self.find_artist(a) if exact else None
+            gen = None if hit else self.find_genre(a)
+            if not hit and not gen:
+                hit = self.find_artist(a)
+            if hit:
+                found.append(hit)
+            elif gen:
+                genres_found.append(gen)
+            else:
+                missing.append(a.strip())
+        # a taste "group" is either an artist or a genre; each is a set of seed songs
+        group_rows = {a: [i for i, s in enumerate(self.songs) if a in s["artists"]] for a in found}
+        for g in genres_found:
+            group_rows[self.genre_label(g)] = [i for i, s in enumerate(self.songs) if g in s["genres"]]
+        idx = sorted({i for r in group_rows.values() for i in r})
+        out = {"found": found + [self.genre_label(g) for g in genres_found], "missing": missing, "blocked": blocked,
                "profile": None, "songs": [], "feedback_used": False}
         if not idx:
             return out
 
         # per-artist taste vectors (used for the combined taste AND for "closest artist")
-        groups = {}
-        for a in found:
-            rows = [i for i in idx if a in self.songs[i]["artists"]]
-            groups[a] = {k: M[rows] for k, M in self.spaces.items()}
-        seed_vecs = {k: np.vstack([g[k] for g in groups.values()]) for k in self.spaces}
+        groups = {a: {k: M[rows] for k, M in self.spaces.items()}
+                  for a, rows in group_rows.items() if rows}
+        # one centroid per artist/genre so a big genre can't drown out a single artist
+        seed_vecs = {k: np.vstack([g[k].mean(axis=0) for g in groups.values()]) for k in self.spaces}
 
         sims = self._similarity(seed_vecs)
         years = np.array([max(s["year"], BASE_YEAR) for s in self.songs])

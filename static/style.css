@@ -210,3 +210,5 @@ footer { margin-top: 56px; text-align: center; font-size: 0.8rem; color: #5b667d
 }
 
 footer .copy { margin-top: 10px; color: #7b86a0; }
+
+#suggest .kind{opacity:.5;font-size:.8em;margin-left:.4em}
